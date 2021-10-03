@@ -11,32 +11,51 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechanical Engineering, University of Illinois at Urbana-Champaign, 2022 (expected)
+#* M.S. in Jekyll, GitHub University, 2014
+#* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2021-present: Undergrad Research Assistant at Juarez Research Group, University of Illinois at Urbana-Champaign
+  * Undergraduate Research Assistant under Prof. Gabriel Juarez 
+  * Developed a modified Vicsek model in MATLAB
+  * Currently building a hydrodynamic treadmill with a scale-free vertical microscope
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2021-present: Undergrad Research Assistant at Monolithic Systems Lab, University of Illinois at Urbana-Champaign
+  * Undergraduate Research Assistant under Prof. Girish Krishnan 
+  * Currently testing flexible connectors for Fiber Reinforced Elastomeric Enclosures
+  * Designed custom parts for injection molding of connectors
+
+* March 2020, September 2021-present: MechSE Innovation Studio Volunteer, University of Illinois at Urbana-Champaign
+  * Assisted students in setting 3D prints for ME X70 design courses
+  * Monitored prints for quality and prevented failures
+
+* August 2019-December 2019: Illinois Formula Electric, University of Illinois at Urbana-Champaign
+  * Part of the Aerodynamics and Composites subsystem
+  * Used ANSYS to work on aerodynamics of front and rear wings of 2020 car and improve aerodynamic performance accordingly
+  * Assisted in fabrication and assembly of front and rear spoilers
+
+* August 2019-April 2020: American Society of Mechanical Engineers (ASME), University of Illinois at Urbana-Champaign
+  * Member of the Special Projects committee involved in building interactive exhibits for Homecoming in Fall and Engineering Open House (EOH) in Spring
+  * Designed arm mechanism of the 2019 Homecoming float, The Alma Mater
+  * Designed the Strandbeest interactive exhibit for 2020 EOH (repurposed for 2021 EOH)
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* MATLAB
+* CAD
+  * PTC Creo
+  * 3DS Solidworks
+  * Autodesk Fusion 360
+* Cura
+* Engineering Equation Solver (EES)
+* ROS
+* Betaflight
 
-Publications
+#Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
