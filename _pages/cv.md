@@ -16,15 +16,14 @@ Education
 
 Work experience
 ======
-* January 2021-present: **Undergrad Research Assistant at Juarez Research Group**, University of Illinois
-  * Undergraduate Research Assistant under Prof. Gabriel Juarez 
-  * Developed a modified Vicsek model in MATLAB
+* January 2021-present: **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois
+  * Developed a modified Vicsek model in MATLAB to incorporate boundaries with elastic collisions
   * Currently building a hydrodynamic treadmill with a scale-free vertical microscope
 
-* May 2021-present: **Undergrad Research Assistant at Monolithic Systems Lab**, University of Illinois
-  * Undergraduate Research Assistant under Prof. Girish Krishnan 
+* May 2021-present: **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois
   * Currently testing flexible connectors for Fiber Reinforced Elastomeric Enclosures
   * Designed custom parts for injection molding of connectors
+  * Developed a modified silicone injection molding fabrication method for connectors
 
 * March 2020, September 2021-present: **MechSE Innovation Studio Volunteer**, University of Illinois
   * Assisted students in setting 3D prints for ME X70 design courses
@@ -45,7 +44,7 @@ Skills
 ======
 * Python
 * MATLAB
-* CAD
+* CAD/CAM/FEA
   * PTC Creo
   * 3DS Solidworks
   * Autodesk Fusion 360
