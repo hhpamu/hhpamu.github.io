@@ -1,6 +1,6 @@
 ---
 title: "Feasibility Analysis of a Tidal Power Plant"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "ME 400 final paper 1<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
