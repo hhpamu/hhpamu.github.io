@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hima Hrithik Pamu"
+  name             : #"Hima Hrithik Pamu"
   avatar           : "profile.jpg"
   bio              : #"Your biography for the left-hand sidebar"
   location         : "Champaign, IL"
