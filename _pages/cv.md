@@ -17,17 +17,22 @@ Education
 Work experience
 ======
 * January 2021-present: **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois
-  * Developed a modified Vicsek model in MATLAB to incorporate boundaries with elastic collisions
-  * Currently building a hydrodynamic treadmill with a scale-free vertical microscope
+  * Developed a modified Vicsek model in MATLAB to incorporate physical boundaries
+  * Modelled elastic collisions and implemented particle trajectory visualization using plot function
+  * Implemented data collection and organization features for exporting simulation data
+  * Currently building a hydrodynamic treadmill with a scale-free vertical microscope, to observe bacteria growth in oil-water interfaces in the ocean conditions
 
 * May 2021-present: **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois
-  * Currently testing flexible connectors for Fiber Reinforced Elastomeric Enclosures
-  * Designed custom parts for injection molding of connectors
+  * Designed and fabricated flexible connectors using 500psi Dragon Skin 30 silicone to emulate a physical pin joint for Fiber Reinforced Elastomeric Enclosures (FREEs)
+  * Designed custom parts for injection molding of connectors using Creo and 3D printed the molds
   * Developed a modified silicone injection molding fabrication method for connectors
+  * Manufactured custom FREEs for testing the connectors
+  * Currently testing flexible connectors for FREEs
 
 * March 2020, September 2021-present: **MechSE Innovation Studio Volunteer**, University of Illinois
-  * Assisted students in setting 3D prints for ME X70 design courses
-  * Monitored prints for quality and prevented failures
+  * Assisted an average of 10 students per day in setting 3D prints for mechanical design and project-based courses
+  * Maintained the equipment in working condition and troubleshot technical issues to ensure smooth operation of equipment and services
+  * Monitored student prints for quality and prevented failures
 
 * August 2019-December 2019: **Illinois Formula Electric**, University of Illinois
   * Part of the Aerodynamics and Composites subsystem
@@ -52,4 +57,23 @@ Skills
 * Engineering Equation Solver (EES)
 * ROS
 * Betaflight
+
+Coursework
+======
+* ME 170	Computer-Aided Design
+* ME 200	Thermodynamics
+* TAM 211	Statics
+* TAM 212	Introductory Dynamics
+* TAM 251	Introductory Solid Mechanics
+* ME 310	Fundamentals of Fluid Dynamics
+* ME 320	Heat Transfer
+* ME 330	Engineering Materials
+* ME 340	Dynamics of Mechanical Systems
+* ME 360	Signal Processing
+* ME 370	Mechanical Design I
+* ME 371	Mechanical Design II
+* ME 400	Energy Conversion Systems
+* ME 447	Computational Design and Dynamics of Soft Systems
+
+
 
