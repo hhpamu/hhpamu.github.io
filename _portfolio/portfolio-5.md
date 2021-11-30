@@ -9,4 +9,4 @@ In Progress
 
 
 Acknowledgements:<br/>
-Soldering help: <a href="https://kylezy2.github.io/">Kyle Young</a>
+Soldering assistance: <a href="https://kylezy2.github.io/">Kyle Young</a>
