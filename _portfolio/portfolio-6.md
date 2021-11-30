@@ -1,6 +1,6 @@
 ---
 title: "Feasibility Analysis of a Tidal Power Plant"
-excerpt: "ME 400 final paper <br/><!--<img src='/images/500x300.png'>-->"
+excerpt: "ME 400 final paper. Cover image by Dio Alif Utomo<br/><img src='/images/tidal_cover.jpg'>"
 collection: portfolio
 ---
 
