@@ -1,6 +1,6 @@
 ---
 title: "Hydrodynamic Treadmill"
-excerpt: "Undergraduate research project <br/><img src='/images/500x300.png'>"
+excerpt: "Undergraduate research project <br/><img src='/images/treadmill.jpg'>"
 collection: portfolio
 ---
 
