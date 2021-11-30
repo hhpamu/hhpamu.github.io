@@ -8,5 +8,5 @@ In Progress
 
 
 
-Acknowledgements:
+Acknowledgements:<br/>
 Soldering help: <a href="https://kylezy2.github.io/">Kyle Young</a>
