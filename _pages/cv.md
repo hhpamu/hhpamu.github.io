@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mechanical Engineering, University of Illinois at Urbana-Champaign, 2022 (expected)
+* B.S. in Mechanical Engineering, University of Illinois at Urbana-Champaign, 2022
 
 
 Work experience
