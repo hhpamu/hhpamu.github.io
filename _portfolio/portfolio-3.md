@@ -1,6 +1,6 @@
 ---
 title: "Vicsek Model Simulations"
-excerpt: "Undergraduate research project <br/><img src='/images/500x300.png'>"
+excerpt: "Undergraduate research project <br/><img src='/images/Npart_condnoise_track_PATH2_cove.png'>"
 collection: portfolio
 ---
 
