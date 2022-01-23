@@ -9,7 +9,7 @@ The current application focus is on mapping and surveying physical structures—
 
 * iFlight SucceX-E F4 MPU6000 Flight Controller GPS F4 FC Built-in OSD BEC Current Sensor Black Box
 * iFlight SucceX-E 45A BLHeli_S 4-in-1 ESC 2-6s Electronic Speed Controller Support DSHOT600
-* iFlight XING 2206 1700KV Brushless Motor 6S
+* iFlight XING 2206 1700KV Brushless Motors 6S
 * NIDICI BN-880 Flight Control GPS Module Dual Module Compass
 
 
