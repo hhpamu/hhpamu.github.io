@@ -6,7 +6,7 @@ collection: portfolio
 This is a final project for <a href="https://courses.illinois.edu/schedule/2019/fall/ME/270">ME 270: Design for Manufacturability</a>.
 
 
-In this project, the design challenge required students to pick a scrap object from Mack's Twin City Recycling and perform the following:
+In this project, the design challenge required students to pick a scrap object from <a href="https://www.macksrecycling.com/">Mack's Twin City Recycling</a> and perform the following:
 * A complete Design for Manufacture and Assembly (DFMA) analysis on our product
 * Creation of a detailed CAD model of parts of the existing product to generate a detailed Manufacturing Cost Analysis using aPriori software
 * Generation and evaluation of new ideas to improve the recyclability of the existing product's parts
