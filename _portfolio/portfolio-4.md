@@ -17,4 +17,5 @@ In this project, the design challenge required students to pick a scrap object f
 
 I decided to work on an old Nintendo Entertainment System (NES) controller from Mack's recycling. At the conclusion of the course, my project was recognized as one of the top 5 projects among 180 individual student final projects in the course.
 
-<br/>The project is available to view <a href="https://illinois.digication.com/me-270-fa19-team-ab7-3_january222020/abet-learning-goals-2-4">here</a>
+
+The project is available to view <a href="https://illinois.digication.com/me-270-fa19-team-ab7-3_january222020/abet-learning-goals-2-4">here</a>
