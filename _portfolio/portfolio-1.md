@@ -14,4 +14,5 @@ The designed setup with a 100:1 geartrain is shown in Fig.1. Note that the encod
 
 
 <img src='/images/fullasm1.jpg' alt="demo_asm" class="center">
+<p style="text-align:center">Fig.1 : Visualization of the apparatus with a 100:1 geartrain attached.</p>
 <center> Fig.1 : Visualization of the apparatus with a 100:1 geartrain attached.</center>
