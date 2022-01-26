@@ -29,7 +29,7 @@ The manufacturing process starts with injecting the silicone into the assembled 
 <p style="text-align:center"> <i>Fig.4: The crude part before processing</i></p>
 
 
-<img src='/images/90degprocessed.jpg' alt="90degprocessed" class="center">
+<img src='/images/90processed.jpg' alt="90degprocessed" class="center">
 <p style="text-align:center"> <i>Fig.5: The cope, drag, core and the processed part</i></p>
 
 
