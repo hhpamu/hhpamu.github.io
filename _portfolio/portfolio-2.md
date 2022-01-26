@@ -33,7 +33,7 @@ The manufacturing process starts with injecting the silicone into the assembled 
 <p style="text-align:center"> <i>Fig.5: The cope, drag, core and the processed part</i></p>
 
 
-I have been testing the connectors under various pressure, orientation, and configuration to discern their effectiveness. As a result, I improved their effectiveness at higher pressures (from 5 psi to 14 psi), a 64% improvement. According to the testing results, further improvements to the design are to be made. See the videos below.
+I have been testing the connectors under various pressure, orientation, and configuration to discern their effectiveness. As a result, I improved their effectiveness at higher pressures (from 5 psi to 14 psi), a 64% improvement. According to testing results, further improvements are to be made in the design. See the videos below.
 
 
 <!--<img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center">
