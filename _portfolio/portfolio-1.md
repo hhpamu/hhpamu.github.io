@@ -10,9 +10,16 @@ This project aims to design and build a rotating fluid chamber based on a Stanfo
 My contributions to the project include sourcing various components needed to build the setup as referenced on the original paper designing a 100:1 and 5:1 geartrain system to control the speed of the chamber and the mounts for holding the setup. These resulted in the first round of data collection by observing the rise of oil droplets in a simulated ocean condition. In addition, I am currently working on implementing an Arduino motor speed control for a more refined control compared to the presently used voltage control.
 
 
-The designed setup with a 100:1 geartrain is shown in Fig.1. Note that the encoder is directly connected to the chamber shaft. The chamber itself is made of acrylic sheets with Aluminum rings in between and is sealed with adhesive. The gears are made of laser cut acrylic and the mounts are 3D printed.
+The designed setup with a 100:1 geartrain is shown in Fig.1. Note that the encoder is directly connected to the chamber shaft. The chamber itself is made of acrylic sheets with Aluminum rings in between and is sealed with adhesive. The gears are made of laser cut acrylic and the mounts are 3D printed. The 5:1 geartrain is also similarly designed and can be swapped between experiments. The parts in the figures are to scale and do not show any screws, bearings and hubs.
 
 
-<img src='/images/fullasm1.jpg' alt="demo_asm" class="center">
+<img src='/images/fullasm1.jpg' alt="demoasm_stdview" class="center">
 <p style="text-align:center">Fig.1 : Visualization of the apparatus with a 100:1 geartrain attached.</p>
-<center> Fig.1 : Visualization of the apparatus with a 100:1 geartrain attached.</center>
+
+
+<img src='/images/fullasm4.jpg' alt="demoasm_perview" class="center">
+<p style="text-align:center">Fig.2 : Visualization of the apparatus with a 100:1 geartrain attached.</p>
+
+
+<img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center">
+<p style="text-align:center">Fig.1 : Visualization of the apparatus with a 100:1 geartrain attached.</p>
