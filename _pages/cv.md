@@ -74,10 +74,10 @@ Coursework
 * ME 370	Mechanical Design I
 * ME 371	Mechanical Design II
 * ME 400	Energy Conversion Systems
-* ME 445  Introduction to Robotics -In Progress
+* ME 445  Introduction to Robotics -**In Progress**
 * ME 447	Computational Design and Dynamics of Soft Systems
-* ME 470  Senior Design Project -In Progress
-* ME 497  Independent Study on Flexible connectors for Pneumatic Artificial Muscles -In Progress
+* ME 470  Senior Design Project -**In Progress**
+* ME 497  Independent Study on Flexible connectors for Pneumatic Artificial Muscles -**In Progress**
 
 
 
