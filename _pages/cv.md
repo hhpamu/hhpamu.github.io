@@ -30,7 +30,7 @@ Work experience
   * Manufactured custom FREEs for testing the connectors using rubber tubes, cotton fiber and rubber cement
   * Currently testing flexible connectors for FREEs to determine the operating pressures of a simple FREE-FREE-rigid member structure and identify areas of improvement, consequently, added rigid constraints to flexible connectors to increase operating pressure
 
-* March 2020, September 2021-present: **MechSE Innovation Studio Volunteer**, University of Illinois
+* March 2020-present: **MechSE Innovation Studio Volunteer**, University of Illinois
   * Assisted an average of 10 students per day in setting 3D prints for mechanical design and project-based courses
   * Troubleshooted technical maintenance issues of 3D Printer equipment to ensure smooth operation by fixing position of carriage on guide rails and programming printer to re-calibrate settings 
   * Monitored student prints for quality and prevented failures
