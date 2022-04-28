@@ -68,26 +68,46 @@ I have been testing the connectors under various pressure, orientation, and conf
 
 The following are the videos from preliminary testing of the FREE-FREE-Rigid member setup.
 
-
+<!--FULL WIDTH VIDEO PLACEMENT-->
 θ=30° configuration:
-[![30deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/30_cover.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![30deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/30_cover.png)](https://youtu.be/LGxrzmNKqIA "30° configuration")
 
 
 θ=60° configuration:
-[![60deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/60_cover.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![60deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/60_cover.png)](https://youtu.be/z79o3h1H0P4 "60° configuration")
 
 
 θ=90° configuration:
-[![90deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/90_cover.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![90deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/90_cover.png)](https://youtu.be/i2VV9eXshtU "90° configuration")
 
 
 θ=120° configuration:
 [![120deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/120_cover.png)](https://youtu.be/_99Zogn_KZM "120° configuration")
 
-<iframe width="420" height="315"
-src="https://youtu.be/_99Zogn_KZM">
-</iframe>
-
+<!--TABLE VIDEO PLACEMENT-->
+<table border="0">
+ <tr>
+  <td><iframe width="420" height="315" src="https://youtu.be/LGxrzmNKqIA"></iframe>
+  
+  
+  <i>30° configuration</i></td>
+  <td><iframe width="420" height="315" src="https://youtu.be/z79o3h1H0P4"></iframe>
+  
+  
+  <i>60° configuration</i></td>
+ </tr>
+ <tr>
+  <td><iframe width="420" height="315" src="https://youtu.be/i2VV9eXshtU"></iframe>
+  
+  
+  <i>90° configuration</i></td>
+  <td><iframe width="420" height="315" src="https://youtu.be/_99Zogn_KZM"></iframe>
+  
+  
+  <i>120° configuration</i></td>
+ </tr>
+ 
+</table>
 **References**
 
 
