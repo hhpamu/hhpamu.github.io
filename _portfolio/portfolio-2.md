@@ -4,7 +4,18 @@ excerpt: "Undergraduate research project <br/><img src='/images/msl_REPLACE.jpg'
 collection: portfolio
 ---
 
-This independent study will investigate soft interfaces that enable robust interconnections between the pneumatic muscles. The goal is to demonstrate lightweight soft robots configured as a planar and spatial network of pneumatic artificial muscles. Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee.org/document/7918530">paper</a>, I designed and built flexible connectors for Fiber Reinforced Elastomeric Enclosures (FREEs) that are capable of emulating a pin joint. The end goal for the connectors was to be able to be incorporated into other robotics projects involving FREEs and for general demonstration purposes.
+
+The biggest pitfall of traditional mechanical elements is that a single actuator drives a mechanism through a transmission system.This Independent Study explores the potential of a distributed soft actuator network to replace conventional actuator-transmission systems. Lightweight, soft robots configured as a planar and spatial network of Fiber-Reinforced Elastomeric Enclosures (FREEs) have many applications ranging from endoscopic surgery to morphing control surfaces for aircraft.
+
+
+To leverage FREEs' capabilities, soft interfaces that enable robust interconnections between FREEs are designed and honed for typical operating pressures of FREEs. Various contracting FREE configurations were tested using the connectors under a fixed pressure to discern their effectiveness and find effective geometry and input parameters.
+
+
+Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee.org/document/7918530">paper</a>, I designed and built flexible connectors for Fiber Reinforced Elastomeric Enclosures (FREEs) that are capable of emulating a pin joint. The end goal for the connectors was to be able to be incorporated into other robotics projects involving FREEs and for general demonstration purposes.
+
+
+**2022 UIUC Undergraduate Research Symposium Poster presentation**-Here is the poster I presented at the event --to be updated--
+
 
 **Connector Fabrication**
 
@@ -126,6 +137,10 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 </table>
 
 
+**Conclusions**
+
+
+Improved actuator effectiveness was observed for θ ≥ 90°, demonstrating the viability of using pneumatic actuators in small-scale tasks. This capability is expected to be scalable for large-scale applications with an extensive network of tessellated meshes. These results were analyzed and compared to the expected theoretical reaction of the FREEs using an approximate model of FREE deformation in MATLAB based on the constrained maximization formulation. In addition, the results are to be compared to those from a mechanical replica performing the same function to assess the viability of using soft actuators.
 
 
 **References**
