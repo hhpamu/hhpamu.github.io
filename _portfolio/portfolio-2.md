@@ -90,13 +90,7 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 <!--TABLE VIDEO PLACEMENT-->
 <table border="0">
  <tr>
-  <td><iframe src="https://www.youtube.com/embed/LGxrzmNKqIA" title="30° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   
-   
-   <i>30° configuration</i>
-   
-   
-  </td>
+  <td><iframe src="https://www.youtube.com/embed/LGxrzmNKqIA" title="30° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><i>30° configuration</i></td>
   <td><iframe src="https://www.youtube.com/embed/z79o3h1H0P4" title="60° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
    
