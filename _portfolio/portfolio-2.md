@@ -6,7 +6,7 @@ collection: portfolio
 
 This independent study will investigate soft interfaces that enable robust interconnections between the pneumatic muscles. The goal is to demonstrate lightweight soft robots configured as a planar and spatial network of pneumatic artificial muscles. Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee.org/document/7918530">paper</a>, I designed and built flexible connectors for Fiber Reinforced Elastomeric Enclosures (FREEs) that are capable of emulating a pin joint. The end goal for the connectors was to be able to be incorporated into other robotics projects involving FREEs and for general demonstration purposes.
 
-
+**Connector Fabrication**
 The prototyping process involved modeling the connectors in PTC Creo Parametric 7.0 (CAD software), 3D printing the molds out of Polylactic Acid (PLA) and Polyvinyl Alcohol (PVA), and selecting an appropriate silicone type. See Fig.1, 2 and 3 for some of the mold designs. It can be seen that the design of the molds can be easily modified to make connectors of any planar or spatial configuration.
 
 <!--
@@ -55,7 +55,11 @@ The manufacturing process starts with injecting the silicone into the assembled 
 
 I have been testing the connectors under various pressure, orientation, and configuration to discern their effectiveness. As a result, I improved their effectiveness at higher pressures (from 5 psi to 14 psi), a 64% improvement. According to testing results, further improvements are to be made in the design. See the videos below.
 
+**Testing**
 
+
+
+**Literature Review**
 <!--<img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center">
 #<p style="text-align:center"> <i>Fig.3: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>-->
 
