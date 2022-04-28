@@ -24,7 +24,11 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 </table>
 -->
 
+<img src='/images/90deg.png' alt="90deg_planar" class="center"><img src='/images/60deg.png' alt="60deg_planar" class="center">
+<p style="text-align:center"> <i>Fig.1: Mold for the 90 degree configuration. Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
 
+
+<!--
 <img src='/images/90deg.png' alt="90deg_planar" class="center">
 <p style="text-align:center"> <i>Fig.1: Mold for the 90 degree configuration. Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
 
@@ -35,7 +39,7 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 
 <img src='/images/spatial1.jpg' alt="120deg_spatial" class="center">
 <p style="text-align:center"> <i>Fig.3: Mold for the tetrahedral configuration. Note that the drag (highlighted in red and blue) has a modified design to allow for easy removal. The cope is highlighted grey and core is shown in yellow. </i></p>
-
+-->
 
 The manufacturing process starts with injecting the silicone into the assembled cope, drag, and core, removing the air bubbles in the mold using a vacuum chamber, and allowing the silicone to solidify. After curing the silicone, the core needs to be dissolved in water to get the crude part. Next, the connectors need to be processed to remove the flashes and remenants of pouring hole and risers, see Fig.4 and 5. As imperfections can compromise its strength, smaller bubbles are punctured and sealed with silicone.
 
