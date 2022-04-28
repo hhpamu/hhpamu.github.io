@@ -44,11 +44,11 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 The manufacturing process starts with injecting the silicone into the assembled cope, drag, and core, removing the air bubbles in the mold using a vacuum chamber, and allowing the silicone to solidify. After curing the silicone, the core needs to be dissolved in water to get the crude part. Next, the connectors need to be processed to remove the flashes and remenants of pouring hole and risers, see Fig.4 and 5. As imperfections can compromise its strength, smaller bubbles are punctured and sealed with silicone.
 
 
-<img src='/images/90deg_justmade.jpg' alt="90degjstmade" class="center">
+<img src='/images/90deg_justmade.jpg' alt="90degjstmade" width="500" height="600">
 <p style="text-align:center"> <i>Fig.4: The crude part before processing</i></p>
 
 
-<img src='/images/90processed.jpg' alt="90degprocessed" class="center">
+<img src='/images/90processed.jpg' alt="90degprocessed" width="500" height="600">
 <p style="text-align:center"> <i>Fig.5: The cope, drag, core and the processed part</i></p>
 
 
