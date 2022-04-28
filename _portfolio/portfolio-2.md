@@ -10,6 +10,17 @@ This independent study will investigate soft interfaces that enable robust inter
 The prototyping process involved modeling the connectors in PTC Creo Parametric 7.0 (CAD software), 3D printing the molds out of Polylactic Acid (PLA) and Polyvinyl Alcohol (PVA), and selecting an appropriate silicone type. See Fig.1, 2 and 3 for some of the mold designs. It can be seen that the design of the molds can be easily modified to make connectors of any planar or spatial configuration.
 
 
+<div class="row"> 
+  <div class="column">
+    <img src='/images/90deg.png' style="width:100%">
+    <img src='/images/spatial1.jpg' style="width:100%">
+  </div>
+  <div class="column">
+    <img src='/images/60deg.png' style="width:100%">
+  </div>
+</div>
+
+<!--
 <img src='/images/90deg.png' alt="90deg_planar" class="center">
 <p style="text-align:center"> <i>Fig.1: Mold for the 90 degree configuration.Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
 
@@ -20,7 +31,7 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 
 <img src='/images/spatial1.jpg' alt="120deg_spatial" class="center">
 <p style="text-align:center"> <i>Fig.3: Mold for the tetrahedral configuration. Note that the drag (highlighted in red and blue) has a modified design to allow for easy removal. The cope is highlighted grey and core is shown in yellow. </i></p>
-
+-->
 
 The manufacturing process starts with injecting the silicone into the assembled cope, drag, and core, removing the air bubbles in the mold using a vacuum chamber, and allowing the silicone to solidify. After curing the silicone, the core needs to be dissolved in water to get the crude part. Next, the connectors need to be processed to remove the flashes and remenants of pouring hole and risers, see Fig.4 and 5. As imperfections can compromise its strength, smaller bubbles are punctured and sealed with silicone.
 
