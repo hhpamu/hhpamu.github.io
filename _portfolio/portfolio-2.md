@@ -15,8 +15,8 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
     <td><b style="font-size:30px">Title 2</b></td>
  </tr>
  <tr>
-    <td>Lorem ipsum ...</td>
-    <td>Lorem ipsum ...</td>
+    <td><img src='/images/90deg.png' alt="90deg_planar" class="center"></td>
+    <td><img src='/images/60deg.png' alt="60deg_planar" class="center"></td>
  </tr>
 </table>
 
