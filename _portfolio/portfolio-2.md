@@ -70,19 +70,23 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 
 
 θ=30° configuration:
-[![30deg](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![30deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/30_cover.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
 
 
 θ=60° configuration:
-[![60deg](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![60deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/60_cover.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
 
 
 θ=90° configuration:
-[![90deg](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+[![90deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/90_cover.png)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
 
 
 θ=120° configuration:
-[![120deg]('https://github.com/hhpamu/hhpamu.github.io/blob/master/images/120_cover.png')](https://youtu.be/_99Zogn_KZM "120° configuration")
+[![120deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/120_cover.png)](https://youtu.be/_99Zogn_KZM "120° configuration")
+
+<iframe width="420" height="315"
+src="https://youtu.be/_99Zogn_KZM">
+</iframe>
 
 **References**
 
