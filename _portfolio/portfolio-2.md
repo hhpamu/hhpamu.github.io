@@ -67,7 +67,7 @@ I have been testing the connectors under various pressure, orientation, and conf
 
 
 
-**Literature Review**
+**References**
 
 
 Singh, Gaurav, and Girish Krishnan. "A constrained maximization formulation to analyze deformation of fiber reinforced elastomeric actuators." Smart Materials and Structures 26.6 (2017): 065024.
@@ -82,7 +82,7 @@ Krishnan, Girish, et al. "Kinematics of a generalized class of pneumatic artific
 Bishop-Moser, Joshua, et al. "Design of soft robotic actuators using fluid-filled fiber-reinforced elastomeric enclosures in parallel combinations." 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, 2012.
 
 
-
+Satheeshbabu, Sreeshankar, et al. "Architectures of Soft Pneumatic Actuators Inspired by Muscle Fiber Arrangements." 2019 2nd IEEE International Conference on Soft Robotics (RoboSoft). IEEE, 2019.
 
 
 
