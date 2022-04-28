@@ -87,21 +87,21 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 <!--TABLE VIDEO PLACEMENT-->
 <table border="0">
  <tr>
-  <td><iframe width="420" height="315" src="https://youtu.be/LGxrzmNKqIA"></iframe>
+  <td><iframe width="640" height="360" src="https://youtu.be/LGxrzmNKqIA" frameborder="0" allowfullscreen></iframe>
   
   
   <i>30° configuration</i></td>
-  <td><iframe width="420" height="315" src="https://youtu.be/z79o3h1H0P4"></iframe>
+  <td><iframe width="640" height="360" src="https://youtu.be/z79o3h1H0P4" frameborder="0" allowfullscreen></iframe>
   
   
   <i>60° configuration</i></td>
  </tr>
  <tr>
-  <td><iframe width="420" height="315" src="https://youtu.be/i2VV9eXshtU"></iframe>
+  <td><iframe width="640" height="360" src="https://youtu.be/i2VV9eXshtU" frameborder="0" allowfullscreen></iframe>
   
   
   <i>90° configuration</i></td>
-  <td><iframe width="420" height="315" src="https://youtu.be/_99Zogn_KZM"></iframe>
+  <td><iframe width="640" height="360" src="https://youtu.be/_99Zogn_KZM" frameborder="0" allowfullscreen></iframe>
   
   
   <i>120° configuration</i></td>
