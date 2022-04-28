@@ -82,7 +82,7 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 
 
 θ=120° configuration:
-[![120deg]('/images/90processed.jpg')](https://youtu.be/_99Zogn_KZM "120° configuration")
+[![120deg]('https://github.com/hhpamu/hhpamu.github.io/blob/master/images/120_cover.png')](https://youtu.be/_99Zogn_KZM "120° configuration")
 
 **References**
 
