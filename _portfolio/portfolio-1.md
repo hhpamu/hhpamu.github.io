@@ -27,15 +27,18 @@ The designed setup with a 100:1 geartrain is shown in Fig.1. Note that the encod
 -->
 
 
-<!--TWO COLUMN IMAGE PLACEMENT-->
+<!--THREE ROW IMAGE PLACEMENT-->
 <table border="0">
  <tr>
+  <td><img src='/images/fullasm4.jpg' alt="demoasm_stdview" class="center"></td>
+ </tr>
+ <tr>
   <td><img src='/images/fullasm1.jpg' alt="demoasm_stdview" class="center"></td>
-  <td><img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center"></td>
+ </tr>
+ <tr>
+  <td><img src='/images/fullasm2.jpg' alt="demoasm_stdview" class="center"></td>
  </tr>
 </table>
-
-<img src='/images/fullasm4.jpg' alt="demoasm_perview" class="center">
 <p style="text-align:center"> <i>Fig.1: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>
 
 
