@@ -11,26 +11,17 @@ This independent study will investigate soft interfaces that enable robust inter
 
 The prototyping process involved modeling the connectors in PTC Creo Parametric 7.0 (CAD software), 3D printing the molds out of Polylactic Acid (PLA) and Polyvinyl Alcohol (PVA), and selecting an appropriate silicone type. See Fig.1, 2 and 3 for some of the mold designs. It can be seen that the design of the molds can be easily modified to make connectors of any planar or spatial configuration.
 
-<!--
+<!--TWO COLUMN IMAGE PLACEMENT-->
 <table border="0">
- <tr>
-  <td><i> Mold for the 90 degree configuration</i></td>
-  <td><i>Mold for the 60 degree configuration</i></td>
-  <td><i>Mold for the tetrahedral configuration</i></td>
- </tr>
  <tr>
   <td><img src='/images/90deg.png' alt="90deg_planar" class="center"></td>
   <td><img src='/images/60deg.png' alt="60deg_planar" class="center">
-  </td><td><img src='/images/spatial1.jpg' alt="120deg_spatial" class="center"></td>
  </tr>
 </table>
--->
-
-<img src='/images/90deg.png' alt="90deg_planar" width="383.333333333" height="230">  <img src='/images/60deg.png' alt="60deg_planar" width="383.333333333" height="230">
 <p style="text-align:center"> <i>Fig.1: Left: Mold for the 90 degree configuration, Right: Mold for the 60 degree configuration.
  Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
-
-
+ 
+<!--FULL WIDTH IMAGE PLACEMENT-->
 <!--
 <img src='/images/90deg.png' alt="90deg_planar" class="center">
 <p style="text-align:center"> <i>Fig.1: Mold for the 90 degree configuration. Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
