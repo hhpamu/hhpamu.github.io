@@ -11,12 +11,14 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
+  <td><i> Mold for the 90 degree configuration</i></td>
+  <td><i>Mold for the 60 degree configuration</i></td>
+  <td><i>Mold for the tetrahedral configuration</i></td>
  </tr>
  <tr>
-    <td><img src='/images/90deg.png' alt="90deg_planar" class="center"></td>
-    <td><img src='/images/60deg.png' alt="60deg_planar" class="center"></td>
+  <td><img src='/images/90deg.png' alt="90deg_planar" class="center"></td>
+  <td><img src='/images/60deg.png' alt="60deg_planar" class="center">
+  </td><td><img src='/images/spatial1.jpg' alt="120deg_spatial" class="center"></td>
  </tr>
 </table>
 
