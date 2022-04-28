@@ -12,7 +12,8 @@ My contributions to the project include sourcing various components needed to bu
 
 The designed setup with a 100:1 geartrain is shown in Fig.1. Note that the encoder is directly connected to the chamber shaft. The chamber itself is made of acrylic sheets with Aluminum rings in between and is sealed with adhesive. The gears are made of laser cut acrylic and the mounts are 3D printed. The 5:1 geartrain is also similarly designed and can be swapped between experiments. The parts in the figures are to scale and do not show any screws, bearings and hubs.
 
-
+<!--FULL WIDTH IMAGE PLACEMENT-->
+<!--
 <img src='/images/fullasm1.jpg' alt="demoasm_stdview" class="center">
 <p style="text-align:center"> <i>Fig.1: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>
 
@@ -23,3 +24,18 @@ The designed setup with a 100:1 geartrain is shown in Fig.1. Note that the encod
 
 <img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center">
 <p style="text-align:center"> <i>Fig.3: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>
+-->
+
+
+<!--TWO COLUMN IMAGE PLACEMENT-->
+<table border="0">
+ <tr>
+  <td><img src='/images/fullasm1.jpg' alt="demoasm_stdview" class="center"></td>
+  <td><img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center"></td>
+ </tr>
+</table>
+
+<img src='/images/fullasm4.jpg' alt="demoasm_perview" class="center">
+<p style="text-align:center"> <i>Fig.1: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>
+
+
