@@ -16,7 +16,13 @@ To leverage FREEs' capabilities, soft interfaces that enable robust interconnect
 Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee.org/document/7918530">paper</a>, I designed and built flexible connectors for Fiber Reinforced Elastomeric Enclosures (FREEs) that are capable of emulating a pin joint. The end goal for the connectors was to be able to be incorporated into other robotics projects involving FREEs and for general demonstration purposes.
 
 
-**2022 UIUC Undergraduate Research Symposium Poster presentation**-Here is the poster I presented at the event --to be updated--
+**2022 UIUC Undergraduate Research Symposium Poster presentation**
+
+
+Here is the poster I presented at the event 
+
+
+<img src='/images/2022_URS.jpg' alt="2022_URS_poster" class="center">
 
 
 **Connector Fabrication**
