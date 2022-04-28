@@ -1,5 +1,5 @@
 ---
-title: "Flexible Connectors for Fiber Reinforced Elastomeric Enclosures (FREEs)"
+title: "Soft Actuator Meshes"
 excerpt: "Undergraduate research project <br/><img src='/images/msl_REPLACE.jpg'>"
 collection: portfolio
 ---
