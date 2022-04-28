@@ -69,6 +69,7 @@ I have been testing the connectors under various pressure, orientation, and conf
 The following are the videos from preliminary testing of the FREE-FREE-Rigid member setup.
 
 <!--FULL WIDTH VIDEO PLACEMENT-->
+<!--
 θ=30° configuration:
 <iframe src="https://www.youtube.com/embed/LGxrzmNKqIA" title="30° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,6 +84,7 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 
 θ=120° configuration:
 <iframe src="https://www.youtube.com/embed/_99Zogn_KZM" title="120° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
 
 
 <!--TABLE VIDEO PLACEMENT-->
