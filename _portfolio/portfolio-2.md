@@ -70,52 +70,44 @@ The following are the videos from preliminary testing of the FREE-FREE-Rigid mem
 
 <!--FULL WIDTH VIDEO PLACEMENT-->
 θ=30° configuration:
-[![30deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/30_cover.png)](https://youtu.be/LGxrzmNKqIA "30° configuration")
+<iframe src="https://www.youtube.com/embed/LGxrzmNKqIA" title="30° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 θ=60° configuration:
-[![60deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/60_cover.png)](https://youtu.be/z79o3h1H0P4 "60° configuration")
+<iframe src="https://www.youtube.com/embed/z79o3h1H0P4" title="60° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 θ=90° configuration:
-[![90deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/90_cover.png)](https://youtu.be/i2VV9eXshtU "90° configuration")
+<iframe src="https://www.youtube.com/embed/i2VV9eXshtU" title="90° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 θ=120° configuration:
-[![120deg](https://github.com/hhpamu/hhpamu.github.io/blob/master/images/120_cover.png)](https://youtu.be/_99Zogn_KZM "120° configuration")
+<iframe src="https://www.youtube.com/embed/_99Zogn_KZM" title="120° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--TABLE VIDEO PLACEMENT-->
 <table border="0">
  <tr>
-  <td><iframe width="640" height="360" src="https://youtu.be/LGxrzmNKqIA" frameborder="0" allowfullscreen></iframe>
+  <td><iframe src="https://www.youtube.com/embed/LGxrzmNKqIA" title="30° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   
   <i>30° configuration</i></td>
-  <td><iframe width="640" height="360" src="https://youtu.be/z79o3h1H0P4" frameborder="0" allowfullscreen></iframe>
+  <td><iframe src="https://www.youtube.com/embed/z79o3h1H0P4" title="60° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   
   <i>60° configuration</i></td>
  </tr>
  <tr>
-  <td><iframe width="640" height="360" src="https://youtu.be/i2VV9eXshtU" frameborder="0" allowfullscreen></iframe>
+  <td><iframe src="https://www.youtube.com/embed/i2VV9eXshtU" title="90° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   
   <i>90° configuration</i></td>
-  <td><iframe width="640" height="360" src="https://youtu.be/_99Zogn_KZM" frameborder="0" allowfullscreen></iframe>
+  <td><iframe src="https://www.youtube.com/embed/_99Zogn_KZM" title="120° configuration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
   
   <i>120° configuration</i></td>
  </tr>
  
 </table>
-
-
-<iframe width="640" height="360" src="https://youtu.be/_99Zogn_KZM" frameborder="0" allowfullscreen></iframe>
-
-
-
-<iframe width="942" height="530" src="https://www.youtube.com/embed/_99Zogn_KZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 **References**
