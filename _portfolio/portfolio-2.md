@@ -66,6 +66,23 @@ I have been testing the connectors under various pressure, orientation, and conf
 **Testing**
 
 
+The following are the videos from preliminary testing of the FREE-FREE-Rigid member setup.
+
+
+θ=30° configuration:
+[![30deg](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+
+
+θ=60° configuration:
+[![60deg](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+
+
+θ=90° configuration:
+[![90deg](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+
+
+θ=120° configuration:
+[![120deg]('/images/90processed.jpg')](https://youtu.be/_99Zogn_KZM "120° configuration")
 
 **References**
 
