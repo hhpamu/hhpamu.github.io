@@ -15,9 +15,10 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 <table border="0">
  <tr>
   <td><img src='/images/90deg.png' alt="90deg_planar" class="center"></td>
-  <td><img src='/images/60deg.png' alt="60deg_planar" class="center">
+  <td><img src='/images/60deg.png' alt="60deg_planar" class="center"></td>
  </tr>
 </table>
+
 <p style="text-align:center"> <i>Fig.1: Left: Mold for the 90 degree configuration, Right: Mold for the 60 degree configuration.
  Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
  
@@ -53,6 +54,13 @@ I have been testing the connectors under various pressure, orientation, and conf
 
 
 **Literature Review**
+Singh, Gaurav, and Girish Krishnan. "A constrained maximization formulation to analyze deformation of fiber reinforced elastomeric actuators." Smart Materials and Structures 26.6 (2017): 065024.
+
+
+
+
+
+
 <!--<img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center">
 #<p style="text-align:center"> <i>Fig.3: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>-->
 
