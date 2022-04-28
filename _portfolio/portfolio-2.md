@@ -9,28 +9,16 @@ This independent study will investigate soft interfaces that enable robust inter
 
 The prototyping process involved modeling the connectors in PTC Creo Parametric 7.0 (CAD software), 3D printing the molds out of Polylactic Acid (PLA) and Polyvinyl Alcohol (PVA), and selecting an appropriate silicone type. See Fig.1, 2 and 3 for some of the mold designs. It can be seen that the design of the molds can be easily modified to make connectors of any planar or spatial configuration.
 
-<style>
-  .header {
-  text-align: center;
-  padding: 32px;
-}
-  .row {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-  <div class="row">
-    <div class="column">
-      <img src='/images/90deg.png' style="width:100%">
-      <img src='/images/spatial1.jpg' style="width:100%">
-    </div>
-    <div class="column">
-      <img src='/images/60deg.png' style="width:100%">
-    </div>
-  </div>
-</style>
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+ </tr>
+ <tr>
+    <td>Lorem ipsum ...</td>
+    <td>Lorem ipsum ...</td>
+ </tr>
+</table>
 
 <!--
 <img src='/images/90deg.png' alt="90deg_planar" class="center">
