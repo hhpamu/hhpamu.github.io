@@ -24,9 +24,9 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 </table>
 -->
 
-<img src='/images/90deg.png' alt="90deg_planar" width="416.666" height="250">  <img src='/images/60deg.png' alt="60deg_planar" width="416.666" height="250">
-<p style="text-align:center"> <i>Fig.1: Left: Mold for the 90 degree configuration, Right: Mold for the 60 degree configuration.</i></p>
-<p style="text-align:center"> <i>Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
+<img src='/images/90deg.png' alt="90deg_planar" width="383.333333333" height="230">  <img src='/images/60deg.png' alt="60deg_planar" width="383.333333333" height="230">
+<p style="text-align:center"> <i>Fig.1: Left: Mold for the 90 degree configuration, Right: Mold for the 60 degree configuration.
+ Note that the cope, drag are highlighted blue and core is shown in yellow. </i></p>
 
 
 <!--
