@@ -6,7 +6,7 @@ collection: portfolio
 
 **Introduction**
 
-
+<p align="justify/left/right/center">
 The biggest pitfall of traditional mechanical elements is that a single actuator drives a mechanism through a transmission system.This Independent Study explores the potential of a distributed soft actuator network to replace conventional actuator-transmission systems. Lightweight, soft robots configured as a planar and spatial network of Fiber-Reinforced Elastomeric Enclosures (FREEs) have many applications ranging from endoscopic surgery to morphing control surfaces for aircraft.
 
 
@@ -172,4 +172,4 @@ Satheeshbabu, Sreeshankar, et al. "Architectures of Soft Pneumatic Actuators Ins
 
 <!--<img src='/images/fullasm2.jpg' alt="demoasm_perview" class="center">
 #<p style="text-align:center"> <i>Fig.3: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>-->
-
+</p>
