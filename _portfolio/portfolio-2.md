@@ -19,7 +19,7 @@ Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee
 **2022 UIUC Undergraduate Research Symposium Poster presentation**
 
 
-Here is the poster I presented at the event 
+Here is the poster I presented at the event (open image in a new tab better resolution)
 
 
 <img src='/images/2022_URS.jpg' alt="2022_URS_poster" class="center">
