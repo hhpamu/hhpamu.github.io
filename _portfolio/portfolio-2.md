@@ -13,7 +13,7 @@ The biggest pitfall of traditional mechanical elements is that a single actuator
 To leverage FREEs' capabilities, soft interfaces that enable robust interconnections between FREEs are designed and honed for typical operating pressures of FREEs. Various contracting FREE configurations were tested using the connectors under a fixed pressure to discern their effectiveness and find effective geometry and input parameters.
 
 
-Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee.org/document/7918530">paper</a>, I designed and built flexible connectors for Fiber Reinforced Elastomeric Enclosures (FREEs) that are capable of emulating a pin joint. The end goal for the connectors was to be able to be incorporated into other robotics projects involving FREEs and for general demonstration purposes.
+Inspired by the compliant flexure nodes in this <a href="https://ieeexplore.ieee.org/document/7918530" target="_blank">paper</a>, I designed and built flexible connectors for Fiber Reinforced Elastomeric Enclosures (FREEs) that are capable of emulating a pin joint. The end goal for the connectors was to be able to be incorporated into other robotics projects involving FREEs and for general demonstration purposes.
 
 
 **2022 UIUC Undergraduate Research Symposium Poster presentation**
@@ -28,7 +28,7 @@ Here is the poster I presented at the event (open image in a new tab better reso
 **Connector Fabrication**
 
 
-The prototyping process involved modeling the connectors in PTC Creo Parametric 7.0 (CAD software), 3D printing the molds out of Polylactic Acid (PLA) and Polyvinyl Alcohol (PVA), and selecting an appropriate silicone type. See Fig.1 and 2 for some of the mold designs. It can be seen that the design of the molds can be easily modified to make connectors of any planar or spatial configuration.
+The prototyping process involved modeling the connectors in PTC Creo Parametric 7.0 (CAD software), 3D printing the molds out of Polylactic Acid (PLA) and Polyvinyl Alcohol (PVA), and selecting an appropriate silicone type. See <i>Fig.1</i> and <i>2</i> for some of the mold designs. It can be seen that the design of the molds can be easily modified to make connectors of any planar or spatial configuration.
 
 <!--TWO COLUMN IMAGE PLACEMENT-->
 <table border="0">
@@ -59,7 +59,7 @@ The prototyping process involved modeling the connectors in PTC Creo Parametric 
 <p style="text-align:center"> <i>Fig.3: Mold for the tetrahedral configuration. Note that the drag (highlighted in red and blue) has a modified design to allow for easy removal. The cope is highlighted grey and core is shown in yellow. </i></p>
 -->
 
-The manufacturing process starts with injecting the silicone into the assembled cope, drag, and core, removing the air bubbles in the mold using a vacuum chamber, and allowing the silicone to solidify. After curing the silicone, the core needs to be dissolved in water to get the crude part. Next, the connectors need to be processed to remove the flashes and remenants of pouring hole and risers, see Fig.3. As imperfections can compromise its strength, smaller bubbles are punctured and sealed with silicone.
+The manufacturing process starts with injecting the silicone into the assembled cope, drag, and core, removing the air bubbles in the mold using a vacuum chamber, and allowing the silicone to solidify. After curing the silicone, the core needs to be dissolved in water to get the crude part. Next, the connectors need to be processed to remove the flashes and remenants of pouring hole and risers, see <i>Fig.3</i>. As imperfections can compromise its strength, smaller bubbles are punctured and sealed with silicone.
 
 <table border="0">
  <tr>
