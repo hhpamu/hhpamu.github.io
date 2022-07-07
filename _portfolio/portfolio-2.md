@@ -4,6 +4,7 @@ excerpt: "Undergraduate research project <br/><img src='/images/msl_REPLACE.jpg'
 collection: portfolio
 ---
 
+
 **Introduction**
 
 
@@ -81,6 +82,7 @@ The manufacturing process starts with injecting the silicone into the assembled 
 -->
 
 I have been testing the connectors under various pressure, orientation, and configuration to discern their effectiveness. As a result, I improved their effectiveness at higher pressures (from 5 psi to 14 psi), a 64% improvement. According to testing results, further improvements are to be made in the design. See the videos below.
+
 
 **Testing**
 
