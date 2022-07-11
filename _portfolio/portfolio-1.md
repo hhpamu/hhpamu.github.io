@@ -60,7 +60,7 @@ The designed setup with a 100:1 geartrain is shown in <i>Fig.1</i>. Note that th
   <td colspan="2"><img src='/images/fullasm2.jpg' alt="demoasm_stdview" class="center"></td>
  </tr>
 </table>
-<i>Fig.1: Visualization of the apparatus with a 100:1 geartrain attached.</i>
+<p style="text-align:center"> <i>Fig.1: Visualization of the apparatus with a 100:1 geartrain attached.</i></p>
 
 
 <table border="0">
@@ -72,7 +72,7 @@ The designed setup with a 100:1 geartrain is shown in <i>Fig.1</i>. Note that th
   <td colspan="2"><img src='/images/render_2_5.jpg' alt="demoasm_stdview" class="center"></td>
  </tr>
 </table>
-<i>Fig.2: Visualization of the apparatus with a 5:1 geartrain attached.</i>
+<p style="text-align:center"> <i>Fig.2: Visualization of the apparatus with a 5:1 geartrain attached.</i></p>
 
 
 **Current Setup**
@@ -87,11 +87,11 @@ The designed setup with a 100:1 geartrain is shown in <i>Fig.1</i>. Note that th
   <td colspan="2"><img src='/images/Image20220201173058.jpg' alt="demoasm_stdview" class="center"></td>
  </tr>
 </table>
-<i>Fig.3: Current setup images.</i>
+<p style="text-align:center"> <i>Fig.3: Current setup images.</i></p>
 
 
 <iframe src="https://www.youtube.com/embed/kNOHeVRt7FY" title="Hydrodynamic Treadmill operation, 5:1 reduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<i>Apparatus in operation</i>
+<p style="text-align:center"> <i>Apparatus in operation</i></p>
 
  
 **Rising Droplet Videos**
