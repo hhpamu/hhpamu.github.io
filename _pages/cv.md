@@ -11,55 +11,59 @@ redirect_from:
 
 Education
 ======
-* B.S. in Mechanical Engineering, University of Illinois at Urbana-Champaign, 2022
+* **Master of Science in Mechanical Engineering - Research**, Carnegie Mellon University, May 2024
+* **Bachelor of Science in Mechanical Engineering**, University of Illinois at Urbana-Champaign, May 2022
 
 
 Work experience
 ======
-* January 2021-present: **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois
+* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2022
   * Developed a modified Vicsek model in MATLAB to incorporate physical boundaries
   * Modelled elastic collisions and implemented particle trajectory visualization using plot function
   * Implemented data collection and organization features for exporting simulation data
-  * Currently building a hydrodynamic treadmill with a scale-free vertical microscope, to observe bacteria growth in oil-water interfaces in the ocean conditions
-  * Designed and fabricated 100:1 and 5:1 reduction ratio geartrains using laser cut acrylic for controlling the speed of the treadmill chamber
+  * Built a hydrodynamic treadmill with a scale-free vertical microscope, to observe bacteria growth in oil-water interfaces in ocean conditions
+  * Designed and fabricated 100:1 and 5:1 reduction ratio gear sets using laser cut acrylic for controlling the speed of the treadmill chamber
 
-* May 2021-present: **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois
+* **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois, May 2021-May 2022
   * Designed and fabricated flexible connectors using 500 psi Dragon Skin 30 silicone to emulate a physical pin joint for Fiber Reinforced Elastomeric Enclosures (FREEs) with the end goal of building a network of FREEs for applications in other robotics projects
   * Designed custom parts for injection molding of connectors using Creo and 3D printed the molds
   * Developed a modified silicone injection molding fabrication method for connectors
-  * Manufactured custom FREEs for testing the connectors using rubber tubes, cotton fiber and rubber cement
-  * Currently testing flexible connectors for FREEs to determine the operating pressures of a simple FREE-FREE-rigid member structure and identify areas of improvement, consequently, added rigid constraints to flexible connectors to increase operating pressure
+  * Manufactured custom FREEs for testing connectors using rubber tubes, cotton fiber and rubber cement
+  * Tested flexible connectors for FREEs to determine operating pressures of a simple FREE-FREE-rigid member structure and identify areas of improvement, consequently, added rigid constraints to flexible connectors to increase operating pressure
 
-* March 2020-present: **MechSE Innovation Studio Volunteer**, University of Illinois
-  * Assisted an average of 10 students per day in setting 3D prints for mechanical design and project-based courses
+* **MechSE Innovation Studio Volunteer**, University of Illinois, March 2020-May 2022
+  * Assisted an average of 15 students per day in setting 3D prints for mechanical design and project-based courses
   * Troubleshooted technical maintenance issues of 3D Printer equipment to ensure smooth operation by fixing position of carriage on guide rails and programming printer to re-calibrate settings 
   * Monitored student prints for quality and prevented failures
 
-* August 2019-April 2020: **American Society of Mechanical Engineers (ASME)**, University of Illinois
+* **American Society of Mechanical Engineers (ASME)**, University of Illinois, August 2019-April 2020
   * Member of the Special Projects committee involved in building interactive exhibits for Homecoming in Fall and Engineering Open House (EOH) in Spring
   * Designed arm mechanism of the 2019 Homecoming float, The Alma Mater
   * Constructed the Strandbeest interactive exhibit for 2020 Engineering Open House (EOH) (repurposed for 2021 EOH) using Creo and laser cut wood
-
-* August 2019-December 2019: **Illinois Formula Electric**, University of Illinois
+<!--
+* **Illinois Formula Electric**, University of Illinois, August 2019-December 2019
   * Part of the Aerodynamics and Composites subsystem
   * Used ANSYS to work on aerodynamics of front and rear wings of 2020 car and improve aerodynamic performance accordingly
   * Assisted in fabrication and assembly of front and rear spoilers
-
+-->
 
 Skills
 ======
-* Python
+* Programming Languages:
+  * Python
+  * C/C++
+  * Latex
 * MATLAB
 * CAD/CAM/FEA
   * PTC Creo
   * 3DS Solidworks
   * Autodesk Fusion 360
-* Cura
+* Ultimaker Cura
 * Engineering Equation Solver (EES)
-* ROS
+* Robot Operating System (ROS)
 * Betaflight
 
-Coursework
+Relevant Bachelor's Coursework
 ======
 * ME 170	Computer-Aided Design
 * ME 200	Thermodynamics
