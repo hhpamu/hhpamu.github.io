@@ -41,12 +41,12 @@ Work experience
   * Designed arm mechanism of the 2019 Homecoming float, The Alma Mater
   * Constructed the Strandbeest interactive exhibit for 2020 Engineering Open House (EOH) (repurposed for 2021 EOH) using Creo and laser cut wood
 
-<!--
+<!---
 * **Illinois Formula Electric**, University of Illinois, August 2019-December 2019
   * Part of the Aerodynamics and Composites subsystem
   * Used ANSYS to work on aerodynamics of front and rear wings of 2020 car and improve aerodynamic performance accordingly
   * Assisted in fabrication and assembly of front and rear spoilers
--->
+--->
 
 
 Skills
