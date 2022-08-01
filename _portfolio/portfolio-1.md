@@ -127,4 +127,4 @@ Krishnamurthy, D., Li, H., Benoit du Rey, F. et al. Scale-free vertical tracking
 **Media Mentions**
 
 
-<a href="https://mechse.illinois.edu/news/juarez-study-bacterial-growth-oil-droplets-could-improve-oil-spill-mitigation" target="_blank">University of Illinois: Mechanical Science and Engineering News</a>
+University of Illinois Mechanical Science and Engineering News: <a href="https://mechse.illinois.edu/news/juarez-study-bacterial-growth-oil-droplets-could-improve-oil-spill-mitigation" target="_blank">Juarez study of bacterial growth on oil droplets could improve oil spill mitigation</a>
