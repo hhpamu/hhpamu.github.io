@@ -55,7 +55,7 @@ Skills
   * Python
   * C/C++
   * Latex
-* MATLAB
+  * MATLAB
 * CAD/CAM/FEA
   * PTC Creo
   * 3DS Solidworks
@@ -67,23 +67,24 @@ Skills
 
 Relevant Bachelor's Coursework
 ======
-* ME 170	Computer-Aided Design
-* ME 200	Thermodynamics
-* TAM 211	Statics
-* TAM 212	Introductory Dynamics
-* TAM 251	Introductory Solid Mechanics
-* ME 310	Fundamentals of Fluid Dynamics
-* ME 320	Heat Transfer
-* ME 330	Engineering Materials
-* ME 340	Dynamics of Mechanical Systems
-* ME 360	Signal Processing
-* ME 370	Mechanical Design I
-* ME 371	Mechanical Design II
-* ME 400	Energy Conversion Systems
-* ME 445	Introduction to Robotics 
-* ME 447	Computational Design and Dynamics of Soft Systems
-* ME 470	Senior Design Project
-* ME 497	Independent Study on Soft Actuator Meshes
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME170" target="_blank">ME 170	Computer-Aided Design</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME200" target="_blank">ME 200	Thermodynamics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/TAM210" target="_blank">TAM 210	Statics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/TAM212" target="_blank">TAM 212	Introductory Dynamics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/TAM251" target="_blank">TAM 251	Introductory Solid Mechanics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME270" target="_blank">ME 270	Introductory Solid Mechanics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME310" target="_blank">ME 310	Fundamentals of Fluid Dynamics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME320" target="_blank">ME 320	Heat Transfer</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME330" target="_blank">ME 330	Engineering Materials</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME340" target="_blank">ME 340	Dynamics of Mechanical Systems</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME360" target="_blank">ME 360	Signal Processing</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME370" target="_blank">ME 370	Mechanical Design I</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME371" target="_blank">ME 371	Mechanical Design II</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME400" target="_blank">ME 400	Energy Conversion Systems</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME445" target="_blank">ME 445	Introduction to Robotics</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME447" target="_blank">ME 447	Computational Design and Dynamics of Soft Systems</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME470" target="_blank">ME 470	Senior Design Project</a>
+* <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME497" target="_blank">ME 497	Independent Study on Soft Actuator Meshes</a>
 
 <!--
 -**In Progress**
