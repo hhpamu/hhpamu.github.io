@@ -15,7 +15,7 @@ Education
 * **Bachelor of Science in Mechanical Engineering**, University of Illinois at Urbana-Champaign, May 2022
 
 
-Work experience
+Experience
 ======
 * **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2022
   * Developed a modified Vicsek model in MATLAB to incorporate physical boundaries
@@ -52,18 +52,17 @@ Work experience
 Skills
 ======
 * Programming Languages:
-  * Python
-  * C/C++
-  * Latex
-  * MATLAB
-* CAD/CAM/FEA
-  * PTC Creo
-  * 3DS Solidworks
-  * Autodesk Fusion 360
-* Ultimaker Cura
-* Engineering Equation Solver (EES)
-* Robot Operating System (ROS)
-* Betaflight
+  * Python <i>(intermediate)</i>
+  * C/C++ <i>(beginner)</i>
+  * MATLAB <i>(intermediate)</i>
+* CAD/CAM/FEA:
+  * PTC Creo <i>(intermediate)</i>
+  * 3DS Solidworks <i>(beginner)</i>
+  * Autodesk Fusion 360 <i>(beginner)</i>
+* Ultimaker Cura <i>(intermediate)</i>
+* Engineering Equation Solver (EES) <i>(intermediate)</i>
+* Robot Operating System (ROS) <i>(beginner)</i>
+* Betaflight <i>(beginner)</i>
 
 Relevant Bachelor's Coursework
 ======
