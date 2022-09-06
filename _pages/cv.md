@@ -51,18 +51,18 @@ Experience
 
 Skills
 ======
-* Programming Languages:
+* <b>Programming Languages</b>:
   * Python <i>(intermediate)</i>
   * C/C++ <i>(beginner)</i>
   * MATLAB <i>(intermediate)</i>
-* CAD/CAM/FEA:
+* <b>CAD/CAM/FEA</b>:
   * PTC Creo <i>(intermediate)</i>
   * 3DS Solidworks <i>(beginner)</i>
   * Autodesk Fusion 360 <i>(beginner)</i>
-* Ultimaker Cura <i>(intermediate)</i>
-* Engineering Equation Solver (EES) <i>(intermediate)</i>
-* Robot Operating System (ROS) <i>(beginner)</i>
-* Betaflight <i>(beginner)</i>
+* <b>Ultimaker Cura</b> <i>(intermediate)</i>
+* <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
+* <b>Robot Operating System</b> (ROS) <i>(beginner)</i>
+* <b>Betaflight</b> <i>(beginner)</i>
 
 Relevant Bachelor's Coursework
 ======
