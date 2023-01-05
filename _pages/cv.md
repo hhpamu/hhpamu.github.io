@@ -66,7 +66,7 @@ Skills
 
 Certifications
 ======
-* **Machine Learning Specialization**
+* <a href="https://www.coursera.org/specializations/machine-learning-introduction" target="_blank"><b>Machine Learning Specialization</b></a>
   * <a href="https://coursera.org/share/899fae03d60b723c35f679eefcc0d6f5" target="_blank">Supervised Machine Learning: Regression and Classification</a>, December 2022
   * <a href="https://www.coursera.org/learn/advanced-learning-algorithms" target="_blank">Advanced Learning Algorithms</a>, In Progress
 
