@@ -76,10 +76,10 @@ Certifications
 
 Relevant Coursework
 ======
-* Masters:
+* **Masters**
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-677.html" target="_blank">24-677 Modern Control Theory / Special Topics: Linear Control Systems</a>
   * <a href="https://www.andrew.cmu.edu/user/amj1/classes/robotdynamics.html" target="_blank">24-760 Special Topics: Robot Dynamics and Analysis</a>
-* Bachelors:
+* **Bachelors**
   * <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME170" target="_blank">ME 170	Computer-Aided Design</a>
   * <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME200" target="_blank">ME 200	Thermodynamics</a>
   * <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/TAM210" target="_blank">TAM 210	Statics</a>
