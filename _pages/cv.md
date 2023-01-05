@@ -61,7 +61,7 @@ Skills
   * Autodesk Fusion 360 <i>(intermediate)</i>
 * <b>Ultimaker Cura</b> <i>(intermediate)</i>
 * <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
-* <b>Robot Operating System</b> (ROS) <i>(beginner)</i>
+* <b>Robot Operating System (ROS)</b> <i>(beginner)</i>
 * <b>Betaflight</b> <i>(beginner)</i>
 
 Certifications
@@ -69,9 +69,9 @@ Certifications
 * **Machine Learning Specialization**
   * <a href="https://coursera.org/share/899fae03d60b723c35f679eefcc0d6f5" target="_blank">Supervised Machine Learning: Regression and Classification</a>, December 2022
   * <a href="https://www.coursera.org/learn/advanced-learning-algorithms" target="_blank">Advanced Learning Algorithms</a>, In Progress
-<!--
+<!---
   * <a href="https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning" target="_blank">Unsupervised Learning, Recommenders, Reinforcement Learning</a>, 
--->
+--->
 
 Relevant Coursework
 ======
