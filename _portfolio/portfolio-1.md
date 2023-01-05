@@ -118,6 +118,13 @@ Your browser does not support the video tag.
 <i>23% rising 20fps</i>
 
 
+**Related Publication**
+
+
+Hickl, V., Pamu, H. H., & Juarez, G. (2022). Direct observations of rising oil droplets deformed by hydrocarbonoclastic bacteria. arXiv preprint arXiv:2212.00627
+https://arxiv.org/abs/2212.00627
+
+
 **References**
 
 
