@@ -73,6 +73,7 @@ Certifications
 <!---
   * <a href="https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning" target="_blank">Unsupervised Learning, Recommenders, Reinforcement Learning</a>, 
 --->
+* <a href="https://www.citiprogram.org/verify/?w091e9199-0fb3-4cd2-bec1-ed5df8ce3e80-50588328" target="_blank"><b>Physical Science Responsible Conduct of Research Course</b></a>, September 2022
 
 Relevant Coursework
 ======
