@@ -15,8 +15,12 @@ Education
 * **Bachelor of Science in Mechanical Engineering**, University of Illinois at Urbana-Champaign, May 2022
 
 
-Experience
+Research Experience
 ======
+* **Graduate Student Researcher at Biohybrid and Organic Robotics Group**, Carnegie Mellon University, Septermber 2022-present
+  * Evaluated the feasibility of using PyElastica, a Python-based simulation environment for simulating musculoskeletal systems
+  * Currently modelling adaptive muscles with Cosserat rods using PyElastica
+
 * **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2022
   * Developed a modified Vicsek model in MATLAB to incorporate physical boundaries
   * Modelled elastic collisions and implemented particle trajectory visualization using plot function
@@ -31,6 +35,9 @@ Experience
   * Manufactured custom FREEs for testing connectors using rubber tubes, cotton fiber and rubber cement
   * Tested flexible connectors for FREEs to determine operating pressures of a simple FREE-FREE-rigid member structure and identify areas of improvement, consequently, added rigid constraints to flexible connectors to increase operating pressure
 
+
+Other Experience
+======
 * **MechSE Innovation Studio Volunteer**, University of Illinois, March 2020-May 2022
   * Assisted an average of 15 students per day in setting 3D prints for mechanical design and project-based courses
   * Troubleshooted technical maintenance issues of 3D Printer equipment to ensure smooth operation by fixing position of carriage on guide rails and programming printer to re-calibrate settings 
@@ -80,6 +87,8 @@ Relevant Coursework
 * **Masters**
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-677.html" target="_blank">24-677 Modern Control Theory / Special Topics: Linear Control Systems</a>
   * <a href="https://www.andrew.cmu.edu/user/amj1/classes/robotdynamics.html" target="_blank">24-760 Special Topics: Robot Dynamics and Analysis</a>
+  * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-773.html" target="_blank">24-773 Special Topics: Multivariable Linear Control</a> -**In Progress**
+  * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-691.html" target="_blank">24-691 Special Topics: Mechanical Engineering Project Management</a> -**In Progress**
 * **Bachelors**
   * <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME170" target="_blank">ME 170	Computer-Aided Design</a>
   * <a href="https://mechse.illinois.edu/graduate/graduate-course-offerings/ME200" target="_blank">ME 200	Thermodynamics</a>
