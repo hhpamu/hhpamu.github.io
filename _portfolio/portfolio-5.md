@@ -15,5 +15,6 @@ The current application focus is on mapping and surveying physical structures<!-
 
 
 
-Acknowledgements:<br/>
+<!--Acknowledgements:<br/>
 Soldering assistance: <a href="https://kylezy2.github.io/">Kyle Young</a>
+-->
