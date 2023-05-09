@@ -88,6 +88,7 @@ Relevant Coursework
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-677.html" target="_blank">24-677 Modern Control Theory / Special Topics: Linear Control Systems</a>
   * <a href="https://www.andrew.cmu.edu/user/amj1/classes/robotdynamics.html" target="_blank">24-760 Special Topics: Robot Dynamics and Analysis</a>
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-691.html" target="_blank">24-691 Special Topics: Mechanical Engineering Project Management</a>
+
 <!---
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-773.html" target="_blank">24-773 Special Topics: Multivariable Linear Control</a> -**In Progress**
 --->
