@@ -77,7 +77,7 @@ Skills
     * Acrylonitrile Butadiene Styrene (ABS)
   * Resin Printing <i>(beginner)</i>
   * Autodesk Fusion 360 <i>(intermediate)</i>
-  * Ultimaker Cura <i>(intermediate)</i>
+  * Hand Tools <i>(advanced)</i>
 * <b>Robot Operating System (ROS)</b> <i>(beginner)</i>
 * <b>Betaflight</b> <i>(beginner)</i>
 * <b>Controls</b>
@@ -90,6 +90,7 @@ Skills
     * H2 controller <i>(beginner)</i>
     * H infinity controller <i>(beginner)</i>
 * <b>Simultaneous localization and mapping (SLAM)</b> <i>(beginner)</i>
+* <b>Machine Learning</b> <i>(beginner)</i>
 
 <!---
 * <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
