@@ -72,7 +72,7 @@ Skills
   * Autodesk Fusion 360 <i>(intermediate)</i>
   * Ultimaker Cura <i>(intermediate)</i>
 * <b>Manufacturing Methods</b>
-  * Fused Deposition Modelling (FDM)/ 3D Printing <i>(intermediate)</i>
+  * Fused Deposition Modelling (FDM)/3D Printing <i>(intermediate)</i>
     * Polylactic Acid (PLA)
     * Acrylonitrile Butadiene Styrene (ABS)
   * Resin Printing <i>(beginner)</i>
