@@ -70,6 +70,15 @@ Skills
 * <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
 * <b>Robot Operating System (ROS)</b> <i>(beginner)</i>
 * <b>Betaflight</b> <i>(beginner)</i>
+* <b>Controls</b>
+  * PID Control <i>(intermediate)</i>
+  * State space methods <i>(beginner)</i>
+  * Observer design <i>(beginner)</i>
+  * Optimal Control
+    * Linear Quadratic Regulators (LQR) <i>(beginner)</i>
+    * Kalman Filters <i>(beginner)</i>
+    * H2 controller <i>(beginner)</i>
+    * H infinity controller <i>(beginner)</i>
 
 Certifications
 ======
