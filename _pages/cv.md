@@ -62,12 +62,18 @@ Skills
   * Python <i>(intermediate)</i>
   * C/C++ <i>(beginner)</i>
   * MATLAB <i>(intermediate)</i>
-* <b>CAD/CAM/FEA</b>
+* <b>CAD/FEA</b>
   * PTC Creo <i>(intermediate)</i>
   * 3DS Solidworks <i>(intermediate)</i>
   * Autodesk Fusion 360 <i>(intermediate)</i>
-* <b>Ultimaker Cura</b> <i>(intermediate)</i>
-* <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
+  * Ultimaker Cura <i>(intermediate)</i>
+* <b>Manufacturing Methods</b>
+  * Fused Deposition Modelling (FDM)/ 3D Printing <i>(intermediate)</i>
+    * Polylactic Acid (PLA)
+    * Acrylonitrile Butadiene Styrene (ABS)
+  * Resin Printing <i>(beginner)</i>
+  * Autodesk Fusion 360 <i>(intermediate)</i>
+  * Ultimaker Cura <i>(intermediate)</i>
 * <b>Robot Operating System (ROS)</b> <i>(beginner)</i>
 * <b>Betaflight</b> <i>(beginner)</i>
 * <b>Controls</b>
@@ -79,6 +85,11 @@ Skills
     * Kalman Filters <i>(beginner)</i>
     * H2 controller <i>(beginner)</i>
     * H infinity controller <i>(beginner)</i>
+
+<!---
+* <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
+--->
+
 
 Certifications
 ======
