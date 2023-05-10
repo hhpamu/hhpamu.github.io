@@ -59,9 +59,13 @@ Other Experience
 Skills
 ======
 * <b>Programming Languages</b>
-  * Python <i>(intermediate)</i>
+  * Python/JupyterLab
+    * Numpy/Scipy/Matplotlib <i>(intermediate)</i>
+    * Pandas <i>(beginner)</i>
+    * Regex <i>(beginner)</i>
+    * scikit-learn <i>(beginner)</i>
   * C/C++ <i>(beginner)</i>
-  * MATLAB <i>(intermediate)</i>
+  * MATLAB/Simulink <i>(intermediate)</i>
 * <b>CAD/FEA</b>
   * PTC Creo <i>(intermediate)</i>
   * 3DS Solidworks <i>(intermediate)</i>
@@ -85,6 +89,7 @@ Skills
     * Kalman Filters <i>(beginner)</i>
     * H2 controller <i>(beginner)</i>
     * H infinity controller <i>(beginner)</i>
+* <b>Simultaneous localization and mapping (SLAM)</b> <i>(beginner)</i>
 
 <!---
 * <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
