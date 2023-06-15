@@ -76,6 +76,7 @@ Skills
   * Fused Deposition Modelling (FDM)/3D Printing <i>(intermediate)</i>
     * Polylactic Acid (PLA)
     * Acrylonitrile Butadiene Styrene (ABS)
+    * Polyvinyl Alcohol (PVA)
   * Resin Printing <i>(beginner)</i>
   * Hand Tools <i>(advanced)</i>
   * Soldering <i>(intermediate)</i>
