@@ -58,7 +58,7 @@ Other Experience
 
 Skills
 ======
-* <b>Programming Languages</b>
+* <b>Programming</b>
   * Python/JupyterLab
     * Numpy/Scipy/Matplotlib <i>(intermediate)</i>
     * Pandas <i>(beginner)</i>
@@ -66,6 +66,7 @@ Skills
     * scikit-learn <i>(beginner)</i>
   * C/C++ <i>(beginner)</i>
   * MATLAB/Simulink <i>(intermediate)</i>
+  * Robot Operating System (ROS) <i>(beginner)</i>
 * <b>CAD/FEA</b>
   * PTC Creo <i>(intermediate)</i>
   * 3DS Solidworks <i>(intermediate)</i>
@@ -76,10 +77,9 @@ Skills
     * Polylactic Acid (PLA)
     * Acrylonitrile Butadiene Styrene (ABS)
   * Resin Printing <i>(beginner)</i>
-  * Autodesk Fusion 360 <i>(intermediate)</i>
   * Hand Tools <i>(advanced)</i>
-* <b>Robot Operating System (ROS)</b> <i>(beginner)</i>
-* <b>Betaflight</b> <i>(beginner)</i>
+  * Soldering <i>(intermediate)</i>
+* <b>Betaflight</b> <i>(beginner)</i> - A drone flight control configuration software
 * <b>Controls</b>
   * PID Control <i>(intermediate)</i>
   * State space methods <i>(beginner)</i>
