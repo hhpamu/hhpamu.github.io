@@ -64,6 +64,8 @@ Skills
     * Pandas <i>(beginner)</i>
     * Regex <i>(beginner)</i>
     * scikit-learn <i>(beginner)</i>
+    * PyTorch <i>(beginner)</i>
+    * TensorFlow <i>(beginner)</i>
   * C/C++ <i>(beginner)</i>
   * MATLAB/Simulink <i>(intermediate)</i>
   * Robot Operating System (ROS) <i>(beginner)</i>
