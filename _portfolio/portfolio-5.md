@@ -1,6 +1,6 @@
 ---
 title: "Redesign to improve a Nintendo Entertainment System (NES) Controller"
-excerpt: "ME 270 final project. Cover image by Hima Pamu <br/><img src='/images/NES_500300.jpg'>"
+excerpt: "ME 270 final project, University of Illinois. Cover image by Hima Pamu <br/><img src='/images/NES_500300.jpg'>"
 collection: portfolio
 ---
 This is a final project for <a href="https://courses.illinois.edu/schedule/2019/fall/ME/270">ME 270: Design for Manufacturability</a>.
