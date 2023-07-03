@@ -1,6 +1,6 @@
 ---
 title: "Soft Actuator Meshes"
-excerpt: "Undergraduate research project <br/><img src='/images/msl_REPLACE.jpg'>"
+excerpt: "Undergraduate research project, University of Illinois <br/><img src='/images/msl_REPLACE.jpg'>"
 collection: portfolio
 ---
 
