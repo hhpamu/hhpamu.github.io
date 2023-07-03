@@ -1,6 +1,6 @@
 ---
-title: "Hydrodynamic Treadmill"
-excerpt: "Undergraduate research project <br/><img src='/images/treadmill.jpg'>"
+title: "Muscle Adaptability"
+excerpt: "Graduate research project at Carnegie Mellon University<br/><img src='/images/treadmill.jpg'>"
 collection: portfolio
 ---
 
