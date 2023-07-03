@@ -1,6 +1,6 @@
 ---
 title: "Muscle Adaptability"
-excerpt: "Graduate research project at Carnegie Mellon University<br/><img src='/images/treadmill.jpg'>"
+excerpt: "Graduate research project, Carnegie Mellon University<br/><img src='/images/treadmill.jpg'>"
 collection: portfolio
 ---
 
