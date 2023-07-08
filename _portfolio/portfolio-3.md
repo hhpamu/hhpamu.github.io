@@ -20,11 +20,9 @@ In this project, the design challenge required students to build a 3D Printer en
 
 My team consisted of <a href="https://www.linkedin.com/in/lucas-hari/">Lucas Hari</a>, <a href="https://www.linkedin.com/in/ryansjacobs/">Ryan Jacobs</a>, <a href="https://www.linkedin.com/in/naman-jain-34a2b317a/">Naman Jain</a>, <a href="https://www.linkedin.com/in/alpkara1999/">Alp Kara</a> and Myself.
 
-<object data="https://github.com/hhpamu/hhpamu.github.io/blob/master/files/ME 470 Final Presentation.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/hhpamu/hhpamu.github.io/blob/master/files/ME 470 Final Presentation.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="files/ME 470 Final Presentation.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+
+<embed src="https://github.com/hhpamu/hhpamu.github.io/blob/master/files/ME 470 Final Presentation.pdf" type="application/pdf" />
+
 
 Here is the poster we presented at the trade show (open image in a new tab better resolution)
 
