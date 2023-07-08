@@ -98,15 +98,15 @@ The designed setup with a 100:1 geartrain is shown in <i>Fig.1</i>. Note that th
  
  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SMOf11N9k54" title="Rising Droplet Video: 20fps 7 %" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<i>7% 20fps</i>
+<p style="text-align:center"> <i>7% 20fps</i></p>
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zRqcoL415WQ" title="Rising Droplet Video: 20fps 38 %" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<i>38% rising 20fps</i>
+<p style="text-align:center"> <i>38% rising 20fps</i></p>
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lGhy-52FVTU" title="Rising Droplet Video: 20fps 23 %" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<i>23% rising 20fps</i>
+<p style="text-align:center"> <i>23% rising 20fps</i></p>
 
 
 **Related Publication**
