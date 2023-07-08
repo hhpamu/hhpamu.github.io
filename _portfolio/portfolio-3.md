@@ -1,6 +1,6 @@
 ---
 title: "Flexible, Multi-feature Enclosure for 3D Printing Equipment"
-excerpt: "ME 470 project, University of Illinois. Cover image by Hima Pamu <br/><img src='images/ME 470 Final Project cover image resized.jpg'>"
+excerpt: "ME 470 project, University of Illinois. Cover image by Hima Pamu <br/><img src='/images/ME 470 Final Project cover image resized.jpg'>"
 collection: portfolio
 ---
 This is a final project for <a href="https://courses.illinois.edu/schedule/2022/spring/ME/470">ME 470: Senior Design Project</a>.
@@ -20,7 +20,7 @@ In this project, the design challenge required students to build a 3D Printer en
 
 My team consisted of <a href="https://www.linkedin.com/in/lucas-hari/">Lucas Hari</a>, <a href="https://www.linkedin.com/in/ryansjacobs/">Ryan Jacobs</a>, <a href="https://www.linkedin.com/in/naman-jain-34a2b317a/">Naman Jain</a>, <a href="https://www.linkedin.com/in/alpkara1999/">Alp Kara</a> and Myself.
 
-<object data="files/ME 470 Final Presentation.pdf" type="application/pdf" width="700px" height="700px">
+<object data="https://github.com/hhpamu/hhpamu.github.io/blob/master/files/ME%20470%20Final%20Presentation.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="files/ME 470 Final Presentation.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="files/ME 470 Final Presentation.pdf">Download PDF</a>.</p>
     </embed>
