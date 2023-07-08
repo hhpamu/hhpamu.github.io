@@ -30,7 +30,7 @@ Here is the poster we presented at the trade show (open image in a new tab bette
 <img src='/images/ME 470 3D-Printer Enclosure Poster.jpg' alt="2022_ME170_Trade_Show_poster" class="center">
 
 
-Our final presentation is available to view <a src="files/ME 470 Final Presentation.pdf">here</a>
+Our final presentation is available to view <a href="https://github.com/hhpamu/hhpamu.github.io/blob/master/files/ME 470 Final Presentation.pdf">here</a>
 
 
-Our final report is available to view <a src="files/ME 470 Final Report.pdf">here</a>
+Our final report is available to view <a href="https://github.com/hhpamu/hhpamu.github.io/blob/master/files/ME 470 Final Report.pdf">here</a>
