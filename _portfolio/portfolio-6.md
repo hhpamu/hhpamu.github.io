@@ -1,6 +1,6 @@
 ---
 title: "Vicsek Model Simulations"
-excerpt: "Undergraduate research project, University of Illinois <br/><img src='/images/Npart_condnoise_track_PATH2_cove.png'>"
+excerpt: "Undergraduate research project, University of Illinois. Cover image by Hima Pamu <br/><img src='/images/Npart_condnoise_track_PATH2_cove.png'>"
 collection: portfolio
 ---
 
