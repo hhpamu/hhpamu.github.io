@@ -1,6 +1,6 @@
 ---
 title: "Hydrodynamic Treadmill"
-excerpt: "Undergraduate research project, University of Illinois<br/><img src='/images/treadmill.jpg'>"
+excerpt: "Undergraduate research project, University of Illinois. Cover image by Hima Pamu <br/><img src='/images/treadmill.jpg'>"
 collection: portfolio
 ---
 
