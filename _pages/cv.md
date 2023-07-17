@@ -79,7 +79,7 @@ Skills
     * Polylactic Acid (PLA)
     * Acrylonitrile Butadiene Styrene (ABS)
     * Polyvinyl Alcohol (PVA)
-  * Resin Printing <i>(beginner)</i>
+  * Stereolithography (SLA)/Resin Printing <i>(beginner)</i>
   * Hand Tools <i>(advanced)</i>
   * Soldering <i>(intermediate)</i>
 * <b>Betaflight</b> <i>(beginner)</i> - A drone flight control configuration software
