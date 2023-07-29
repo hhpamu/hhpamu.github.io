@@ -17,16 +17,20 @@ Education
 
 Research Experience
 ======
-* **Graduate Student Researcher at Biohybrid and Organic Robotics Group**, Carnegie Mellon University, Septermber 2022-present
-  * Evaluated the feasibility of using PyElastica, a Python-based simulation environment for simulating musculoskeletal systems
-  * Currently modelling adaptive muscles with Cosserat rods using PyElastica
+* **Graduate Student Researcher at Biohybrid and Organic Robotics Group**, Carnegie Mellon University, Septermber 2022-Present
+  * Evaluated the feasibility of using PyElastica, a Cosserat rod-based simulation environment in Python, for simulating musculoskeletal systems
+  * Currently modelling adaptability of muscles under exercise in PyElastica
 
-* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2022
+* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2021
   * Developed a modified Vicsek model in MATLAB to incorporate physical boundaries
   * Modelled elastic collisions and implemented particle trajectory visualization using plot function
-  * Implemented data collection and organization features for exporting simulation data
+
+* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, May 2021-May 2022
+  * Sourced the original and alternative components based on references and vendor listings
   * Built a hydrodynamic treadmill with a scale-free vertical microscope, to observe bacteria growth in oil-water interfaces in ocean conditions
   * Designed and fabricated 100:1 and 5:1 reduction ratio gear sets using laser cut acrylic for controlling the speed of the treadmill chamber
+  * Attempted implementing a more refined chambercontrol using Arduino
+  * Related preprint available at: https://arxiv.org/abs/2212.00627
 
 * **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois, May 2021-May 2022
   * Designed and fabricated flexible connectors using 500 psi Dragon Skin 30 silicone to emulate a physical pin joint for Fiber Reinforced Elastomeric Enclosures (FREEs) with the end goal of building a network of FREEs for applications in other robotics projects
@@ -36,17 +40,19 @@ Research Experience
   * Tested flexible connectors for FREEs to determine operating pressures of a simple FREE-FREE-rigid member structure and identify areas of improvement, consequently, added rigid constraints to flexible connectors to increase operating pressure
 
 
-Other Experience
+Additional Experience
 ======
 * **MechSE Innovation Studio Volunteer**, University of Illinois, March 2020-May 2022
   * Assisted an average of 15 students per day in setting 3D prints for mechanical design and project-based courses
   * Troubleshooted technical maintenance issues of 3D Printer equipment to ensure smooth operation by fixing position of carriage on guide rails and programming printer to re-calibrate settings 
   * Monitored student prints for quality and prevented failures
+  * Managed part sales and inventory during the academic year
+  * Maintained tools and equipment in working condition to reduce user wait times
 
 * **American Society of Mechanical Engineers (ASME)**, University of Illinois, August 2019-April 2020
   * Member of the Special Projects committee involved in building interactive exhibits for Homecoming in Fall and Engineering Open House (EOH) in Spring
   * Designed arm mechanism of the 2019 Homecoming float, The Alma Mater
-  * Constructed the Strandbeest interactive exhibit for 2020 Engineering Open House (EOH) (repurposed for 2021 EOH) using Creo and laser cut wood
+  * Collaborated with a team of four to design and construct the Strandbeest interactive exhibit for 2020 Engineering Open House (EOH) (repurposed for 2021 EOH) using Creo and laser cut wood
 
 <!---
 * **Illinois Formula Electric**, University of Illinois, August 2019-December 2019
