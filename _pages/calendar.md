@@ -1,0 +1,6 @@
+---
+layout: page
+title: Calendar
+---
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDetroit&src=bGFkaWVzbWFuMTcyOUBnbWFpbC5jb20&src=dmJmbm5mZGFxZ3Fyb3ZmbGl2cGMwN2xkdG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjFtYWNtc21wczI1NWpoaWd0Y2RjOHRzbm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MGo2Z3EyNG92czBkc29ybzA1b2JxNDByc2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OWRydjdhZHVjNmlnNm02MzA5dTExMWJjbXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=Y3YzZ21tZjBjbWZuZms4NG1hZGJlN2YzaWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ODhkZjhlOTU2NzhiMzg0MDY1NjdmNDcxZmE1N2I1ZmFiMTYzMGQ4MzNmNDRmNjgyNWI2YzU1YmE0NzZjMDliYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%23616161&color=%23F09300&color=%23F4511E&color=%2333B679&color=%238E24AA&color=%23795548&color=%2333B679" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
