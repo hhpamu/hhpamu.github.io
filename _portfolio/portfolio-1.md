@@ -8,11 +8,27 @@ collection: portfolio
 **Introduction**
 
 
-Muscles adapt under repeated loading to generate increased force and improve performance. This project aims to integrate muscle adaptability to PyElastica models. 
-<a href="https://www.google.com/url?q=https://www.cosseratrods.org" target="_blank">PyElastica</a> is an open-source Python package designed for Cosserat rod based soft body simulations and is developed by the <a href="https://mattia-lab.com/" target="_blank">Gazzola Lab</a> at the University of Illinois.
+This project aims to integrate several neuromuscular modeling approaches into a single simulation platform and develop adaptable models of muscles that capture how muscle grows in response to strength training. The simulation environment will allow integration with machine learning tools and parallel computing. With this system, we seek to design novel adaptable robot geometries for bioprinting. We also plan on developing a GUI for this simulation environment to allow it to be used in outreach and teaching to broaden opportunities for participation in biohybrid robotics. 
 
-PyElastica's source code is available <a href="https://github.com/GazzolaLab/PyElastica" target="_blank">here</a>
+A Python-based simulation package called <a href="https://www.google.com/url?q=https://www.cosseratrods.org" target="_blank">PyElastica</a> is used to achieve these goals. The primary feature of PyElastica is to model structures with slender geometry, i.e., rods with lengths significantly bigger than their radii. This feature is leveraged to model muscles, making the package suitable for this project. 
 
+My contributions have been to design a streamlined process to set up muscles, rods, data collection, and write custom functions to export and analyze the simulation results by generating appropriate plots and data. I am currently working on developing rudimentary muscle fatigue and adaptability features.
+
+I will update this page as we generate results.
+
+**PyElastica**
+
+PyElastica is an open-source Python package designed for Cosserat rod based soft body simulations and is developed by the <a href="https://mattia-lab.com/" target="_blank">Gazzola Lab</a> at the University of Illinois.
+
+<a href="https://github.com/GazzolaLab/PyElastica" target="_blank">PyElastica Source Code</a>
+
+<a href="https://docs.cosseratrods.org/en/latest/" target="_blank">PyElastica Documentation</a>
+
+
+**Contact**
+
+
+If you are interested in learning more about this project, feel free to reach out to our lab: <a href="https://www.meche.engineering.cmu.edu/faculty/borg/index.html" target="_blank">Biohybrid and Organic Robotics Group</a>
 <!--
 **Cosserat Rods**
 
