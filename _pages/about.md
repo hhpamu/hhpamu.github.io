@@ -10,7 +10,7 @@ redirect_from:
 
 Hello! I am Hima Pamu, currently a graduate student researcher at <a href="https://www.meche.engineering.cmu.edu/faculty/webster-wood-borg.html" target="_blank">Biohybrid and Organic Robotics Group (B.O.R.G.)</a> at the Carnegie Mellon University (CMU). 
 
-I am currently working on simulating musclature using <a href="https://www.cosseratrods.org/software/pyelastica/" target="_blank">PyElastica</a> and incorporating adaptability of muscles into the model.
+I am currently working on simulating musclature using <a href="https://www.cosseratrods.org/software/pyelastica/" target="_blank">PyElastica</a> and modeling muscle adaptability.
 
 I graduated with a B.S. in mechanical engineering from the University of Illinois at Urbana-Champaign (UIUC). 
 
