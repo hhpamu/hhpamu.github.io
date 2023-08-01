@@ -42,7 +42,7 @@ If you are interested in learning more about this project, feel free to reach ou
 **Funding Information**
 
 
-This undertaking is funded by NSF CAREER award. More information is availible here: <a href="https://www.meche.engineering.cmu.edu/faculty/borg/2044785.html" target="_blank">CAREER: Adaptive Actuation and Control in Embodied Biohybrid Robots</a>
+This undertaking is funded by NSF CAREER award. More information is available here: <a href="https://www.meche.engineering.cmu.edu/faculty/borg/2044785.html" target="_blank">CAREER: Adaptive Actuation and Control in Embodied Biohybrid Robots</a>
 
 
 <!--
