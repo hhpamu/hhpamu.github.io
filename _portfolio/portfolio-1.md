@@ -1,5 +1,5 @@
 ---
-title: "Muscle Adaptability"
+title: "Musculoskeletal Simulation"
 excerpt: "Graduate research project, Carnegie Mellon University<br/>"
 collection: portfolio
 ---
@@ -12,7 +12,11 @@ This project aims to integrate several neuromuscular modeling approaches into a 
 
 A Python-based simulation package called <a href="https://www.google.com/url?q=https://www.cosseratrods.org" target="_blank">PyElastica</a> is used to achieve these goals. The primary feature of PyElastica is to model structures with slender geometry, i.e., rods with lengths significantly bigger than their radii. This feature is leveraged to model muscles, making the package suitable for this project. 
 
-My contributions have been to design a streamlined process to set up muscles, rods, data collection, and write custom functions to export and analyze the simulation results by generating appropriate plots and data. I am currently working on developing rudimentary muscle fatigue and adaptability features.
+My contributions have been to design a streamlined process to set up muscles, rods, data collection, and write custom functions to export and analyze the simulation results by generating appropriate plots and data. 
+
+
+<!--I am currently working on developing rudimentary muscle fatigue and adaptability features.-->
+
 
 I will update this page as we generate results.
 
