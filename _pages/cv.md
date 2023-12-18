@@ -110,10 +110,10 @@ Skills
 
 Certifications
 ======
-* <a href="https://www.coursera.org/specializations/machine-learning-introduction" target="_blank"><b>Machine Learning Specialization</b></a>
+* <a href="https://coursera.org/share/0cd29318ece6e100f4343de9b5c11a39" target="_blank"><b>Machine Learning Specialization</b></a>
   * <a href="https://coursera.org/share/899fae03d60b723c35f679eefcc0d6f5" target="_blank">Supervised Machine Learning: Regression and Classification</a>, December 2022
   * <a href="https://coursera.org/share/efbad259c2e34ea281db03c1aa9c67cd" target="_blank">Advanced Learning Algorithms</a>, June 2023
-  * <a href="https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning" target="_blank">Unsupervised Learning, Recommenders, Reinforcement Learning</a>, In Progress
+  * <a href="https://coursera.org/share/6fdff224c5e69a4ff089b58a4f12606f" target="_blank">Unsupervised Learning, Recommenders, Reinforcement Learning</a>, December 2023
 
 * <a href="https://www.citiprogram.org/verify/?w091e9199-0fb3-4cd2-bec1-ed5df8ce3e80-50588328" target="_blank"><b>Physical Science Responsible Conduct of Research Course</b></a>, September 2022
 
