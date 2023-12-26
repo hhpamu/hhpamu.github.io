@@ -1,6 +1,6 @@
 ---
 title: "Flexible, Multi-feature Enclosure for 3D Printing Equipment"
-excerpt: "ME 470 project, University of Illinois. Cover image by Hima Pamu <br/><img src='/images/ME470_project/ME 470 Final Project cover image resized.jpg'>"
+excerpt: "ME 470 course project, University of Illinois. Cover image by Hima Pamu <br/><img src='/images/ME470_project/ME 470 Final Project cover image resized.jpg'>"
 collection: portfolio
 ---
 <!--
