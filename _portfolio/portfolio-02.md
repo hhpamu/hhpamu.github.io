@@ -3,72 +3,70 @@ title: "Control Stabilization for Bi-Quadcopter Payload Delivery System"
 excerpt: "24-774 course project, Carnegie Mellon University"
 collection: portfolio
 ---
-<!--
+
+**Introduction**
+
+In recent years, drones have emerged as versatile tools, significantly impacting sectors like agriculture, surveillance, and delivery. While their applications are expansive, a primary limitation hindering broader usage is the restricted payload capacity. Traditional single-drone designs are often inadequate for tasks requiring substantial load carriage. This paper examines an innovative approach to address this challenge: the Bi-Quadcopter Payload Delivery System. This system features a novel integration of two drones connected by a specially designed truss structure. The primary objective of this design is to enhance the payload capacity beyond the limitations of conventional single-drone systems. By distributing the load between two interconnected drones, the system aims to achieve greater stability and efficiency in payload delivery. The motivation for this project stems from the growing demand for drones capable of transporting larger payloads across various industries. This demand is particularly evident in sectors where drones are increasingly preferred for their ability to navigate challenging terrains, enhance efficiency, and reduce human risk in operations. However, the limited payload capacity of current drone technology often necessitates compromises in operational scope and efficiency.
+
+[---FINAL TRUSS CAD IMAGE---]
+
+**Methodology**
+
+The first step in enabling the bi-quadcopter flight was iteratively designing a robust truss structure that is light weight. Polylactic Acid (PLA) was used to maintain the lightweight nature. The truss strategically positioned the payload at the center, balancing it between the two drones. This positioning, coupled with the symmetry of the CrazyFlie drones’ motors and arms, resulted in a exploitable symmetry in controller design logic. The bi-quadcopter setup's system modelling involved develop a state-space dynamics model that accurately represented the behavior and responses of the interconnected drones. This model is vital for predicting the system’s performance under various load conditions and flight scenarios. The existing Crazyflie cascaded Proportional-Integral-Derivative (PID) controller was redesigned and tuned to match the new dual drone dynamics. This controller modification was essential for achieving precise and stable flight control, considering the additional complexity about the roll and yaw flight operation due to the design. In addition, a setpoint change was made for yaw operations that significantly improved performance
+
+[---YAW BEFORE AND AFTER IMAGES---]
+
+Simulink was used to assess the response of the new controller on the hardware, providing a virtual testing ground for our controller tuning process. For payload pickup, rigid donut-shaped magnets were used along with a payload comprised of a heap of magnetic paper clips. Each magnet and paperclip weighed approximately 3g and 0.5g respectively. to further stabilize the flight operations after the payload pickup process, an adaptive controller was implemented. This controller dynamically adjusted the PID settings based on the weight of the payload, ensuring consistent performance across a range of payloads.
+
+[---PWR DIST BEFORE AND AFTER IMAGES---]
+
+**Results**
 
 
-This is a final project for <a href="https://courses.illinois.edu/schedule/2022/spring/ME/470">ME 470: Senior Design Project</a>.
+**Conclusion**
 
 
-In this project, the design challenge required students to build a 3D Printer enclosure that would enable the Grainger <a href="https://www.library.illinois.edu/enx/idea-lab/">Innovation, Discovery, Design, and Data (IDEA)</a> Lab to process longer, larger, and more complex print times that may take multiple days. This would provide them with additional capabilities to print more types of 3D models for their supported Senior Design, Capstone, and other research and learning projects. At the time of proposal, the IDEA lab personnel were limited by print times as there were concerns with safety by running machines for long periods of time without supervision. By providing the the following functionality, it would provide them with the ability to process more complex and larger models:
-* Fire sensor that would trigger a fire extinguisher or other fire suppression system in the enclosure
-* Webcam that would be networked so to remotely monitor the printers
-* Compartment to house 3D printer filament to better control humidity exposure as humidity caused a filament brittleness
-* Thermometer and humidity sensor to monitor temperature and humidity inside the enclosure
-* Dehumidifier inside to again, better control humidity
-* Ports for air ventilation, including mounted system fans to expel hot air
-* Accommodate different sized 3D Printers including the Original Prusa i3 MK3S+, Lulzbot Taz 5, Lulzbot Taz Pro, Lulzbot Taz Pro XT, and Elegoo Mars and Elegoo Saturn 3D Printers
-* Maintain optimum conditions
-  * Temperature: 62 to 68 degrees Fahrenheit
-  * Humidity: 0-15%
- 
+**Team**
 
-My team consisted of <a href="https://www.linkedin.com/in/lucas-hari/">Lucas Hari</a>, <a href="https://www.linkedin.com/in/ryansjacobs/">Ryan Jacobs</a>, <a href="https://www.linkedin.com/in/naman-jain-34a2b317a/">Naman Jain</a>, <a href="https://www.linkedin.com/in/alpkara1999/">Alp Kara</a> and Myself.
+Our final presentation is available to view <a href="">here</a>
 
 
-Here is the poster we presented at the trade show (open image in a new tab better resolution)
+Our final report is available to view <a href="">here</a>
 
 
-<img src='/images/ME 470 3D-Printer Enclosure Poster.jpg' alt="2022_ME170_Trade_Show_poster" class="center">
+The team consisted of <a href="https://www.linkedin.com/in/peter-blumenstein-59599011a/">Peter Blumenstein</a>, who worked on simulation tasks; <a href="https://www.linkedin.com/in/sribru/">Srikumar Brundavanam</a>, who was involved in firmware development and swarm flight implementation; <a href="https://www.linkedin.com/in/steven-shi-272b2b168/">Shang Shi</a> on firmware development and hardware testing and tuning; <a href="https://www.linkedin.com/in/ben-spin-71640b1a5/">Ben Spin</a>, on truss design and dynamics modeling; and myself working on dynamics modeling, controller design, and hardware testing & tuning.
 
 
-Our final presentation is available to view <a href="https://drive.google.com/file/d/1CiiN_F4HlnuYSA_M9JqTKd2Pi15-rHMN/view?usp=sharing">here</a>
+**Acknowledgements**
+We would like to express our sincere gratitude to Dr. Mark Bedillion, whose expertise, understanding, and patience, added considerably to our experience and understanding of control systems and their implementation. 
+We would also like to thank Dr. Aaron Johnson for his assistance in developing the dynamics model of our project
+Additionally, we are indebted to Khai Nguyen, the teaching assistant for 24-774 Special Topics: Advanced Control Systems Integration for Fall 2023, for his invaluable assistance throughout this project. H
 
 
-Our final report is available to view <a href="https://drive.google.com/file/d/1fEH2LtMO-KjH0yI0g04wTUAGdjU6A4sB/view?usp=sharing">here</a>
+**References**
+
+J.-P. Aurambout, K. Gkoumas, and B. Ciuffo, “Last mile delivery by drones: An estimation of viable market potential and access to citizens across European cities,” European Transport Research Review, vol. 11, no. 1, 2019. doi:10.1186/s12544-019-0368-2 
 
 
--->
+J. E. Scott and C. H. Scott, “Models for drone delivery of medications and other healthcare items,” Unmanned Aerial Vehicles, pp. 376–392, 2019. doi:10.4018/978-1-5225-8365-3.ch016 
 
 
-The Multi-feature Enclosure for 3D Printing Equipment, as part of the <a href="https://courses.illinois.edu/schedule/2022/spring/ME/470">Mechanical Engineering Senior Design Project</a>, advances 3D printing capabilities within academic and research environments. This project, undertaken for the <a href="https://www.library.illinois.edu/enx/idea-lab/">Innovation, Discovery, Design, and Data (IDEA)</a> Lab, aimed to address the limitations faced by the lab in processing long-duration, intricate 3D printing tasks. The IDEA Lab has six different 3D printer models. These 3D printers are used by undergraduates, postgraduates, and faculty members for a wide variety of senior design projects, capstones, and research projects. Typical prints can be large in volume (11 x 11 x 27 in.), have complex geometry, and take several days to print. As a result, 3D printers are run for long periods of time without supervision. Currently, IDEA Lab does not control temperature and humidity for 3D printing. The 3D printer filament is hygroscopic, meaning the filament absorbs moisture from the air during prolonged exposure. The expansion due to humidity alters the print resolution, and thus decreases print quality, and also raises the likelihood of a print failure due to a clogged nozzle. The IDEA Lab needed to limit the duration, complexity, and size of prints to reduce the possibility of failing or causing a fire. By designing an enclosure equipped with safety and efficiency-enhancing features such as a fire sensor, remote monitoring webcam, humidity-controlled filament storage, and optimized temperature and humidity conditions, the project sought to safely extend the operational time of printers. This innovation not only facilitates the lab's ability to undertake more complex and larger-scale 3D printing projects but also contributes to the broader educational and research goals by enabling the production of diverse and intricate 3D models. 
+Mohsan, S.A.H., Othman, N.Q.H., Li, Y. et al. Unmanned aerial vehicles (UAVs): practical aspects, applications, open challenges, security issues, and future trends. Intel Serv Robotics 16, 109–137 (2023). https://doi.org/10.1007/s11370-022-00452-4
+
+
+D. G. Morín, J. Araujo, S. Tayamon and L. A. A. Andersson, "Autonomous Cooperative Flight of Rigidly Attached Quadcopters," 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada, 2019, pp. 5309-5315, doi: 10.1109/ICRA.2019.8794266.
+
+
+XIE, Heng ; DONG, Kaixu ; CHIRARATTANANON, Pakpong. / Cooperative Transport of a Suspended Payload via Two Aerial Robots with Inertial Sensing. In: IEEE Access. 2022 ; Vol. 10. pp. 81764-81776.
+
+
+Luis, C., \& Le Ny, J. (August, 2016). "Design of a Trajectory Tracking Controller for a
+NanoQuadcopter". Technical report, Mobile Robotics and Autonomous Systems Laboratory, Polytechnique Montreal. 
+
+
+
 
 
 <img src='/images/ME470_project/ME 470 3D-Printer Enclosure Poster.jpg' alt="2022_ME170_Trade_Show_poster" class="center">
 <p style="text-align:center"> <i>The poster we presented at the trade show (open image in a new tab better resolution)</i></p>
 
-
-The project began with identifying common issues in 3D printing such as print failures due to temperature fluctuations, poor humidity control, typical ranges of temperature and humidity for optimal printing and failure. Fires caused by 3D printers are often undocumented, making it difficult to quantify, but many incident reports found online indicated that unsupervised prints increase the risk of a fire. More commonly, 3D prints can fail while unattended, resulting in wasted time and printer material. Initial research along with a comprehensive literature review found that these problems are addressed by DIY enthusiasts by using an enclosure on their 3D printer, filament or both. The enclosure also needed to be capable of accommodating multiple 3D printer models, with a particular focus on the largest, the Lulzbot TAZ Pro XT. This information guided the design process of our enclosure. 
-
-
-<img src='/images/ME470_project/Screenshot 2023-12-06 183644.png' alt="hardware" class="center">
-<p style="text-align:center"> <i>Hardware used</i></p>
-
-
-Once ideation was complete, the team proceeded to design a cost-effective frame by leveraging T-slot aluminum extrusions that allow for an array of modular attachment options. The walls were constructed from clear acrylic panels allowing the user to view the 3D printer easily. A Peltier electrothermal intake fan supplies cool air into the enclosure while an exhaust fan pushes hot air out of the enclosure. These fans toggle on and off when the detected temperature from the temperature sensor surpasses the upper bound of the ideal temperature range for 3D printing. Silica gel sits inside the enclosure to remove moisture from the air, and a dry box houses the filament spool for further humidity control. A webcam live streams video through OctoPrint on the Raspberry PI 4 to the end user’s mobile device for remote viewing. OctoPrint also allows users to start/stop/cancel prints and see real-time temperature and humidity data from their mobile device. The spaghetti detective AI-based print failure detection was also added to warn the user by a text message or email. Finally a fire suppression system was included using the commercially available Blazecut system. 
-
-
-<img src='/images/ME470_project/Screenshot 2023-12-06 183518.png' alt="Final build" class="center">
-<p style="text-align:center"> <i>The final prototype</i></p>
-
-
-The project's effectiveness was evaluated based on its ability to maintain optimal printing conditions within a specified temperature (62-68°F) and humidity (0-15%) range, as well as on its modularity and ease of assembly. The evaluation also considered the successful integration of temperature and smoke sensors, the webcam, and a user-friendly interface for remote monitoring. The team successfully built one cost-effective enclosure to house the IDEA Lab’s new Taz Pro XT printer. The Taz Pro XT is the largest 3D printer model in the IDEA Lab, making the enclosure viable for all six 3D printer models in the IDEA Lab. Furthermore, this enclosure design meets all the design criteria proposed by the sponsor, and additional enclosures can be built for all IDEA Lab printers cost-effectively at $1677.85 per enclosure. Replicability is ensured with thorough instructions for building the frame, and for using the control systems. Upon testing, The cooling system reduced the steady-state enclosure temperature by more than 4°F for the floor and ceiling temperatures and did not have a significant effect on humidity as expected.
-
-
-
-Our final presentation is available to view <a href="https://drive.google.com/file/d/1CiiN_F4HlnuYSA_M9JqTKd2Pi15-rHMN/view?usp=sharing">here</a>
-
-
-Our final report is available to view <a href="https://drive.google.com/file/d/1fEH2LtMO-KjH0yI0g04wTUAGdjU6A4sB/view?usp=sharing">here</a>
-
-
-The team consisted of <a href="https://www.linkedin.com/in/lucas-hari/">Lucas Hari</a> working on controls, <a href="https://www.linkedin.com/in/ryansjacobs/">Ryan Jacobs</a> involved in temperature and humidity monitoring, <a href="https://www.linkedin.com/in/naman-jain-34a2b317a/">Naman Jain</a> on fire suppression, <a href="https://www.linkedin.com/in/alpkara1999/">Alp Kara</a> and Myself working on structures and integration.
