@@ -1,6 +1,6 @@
 ---
 title: "Control Stabilization for Bi-Quadcopter Payload Delivery System"
-excerpt: "24-774 course project, Carnegie Mellon University <br/><img src='images/ACSI_project/coverimage_1000x500.jpg'>"
+excerpt: "24-774 course project, Carnegie Mellon University <br/><img src='/images/ACSI_project/coverimage_1000x500.jpg'>"
 collection: portfolio
 ---
 
@@ -13,7 +13,7 @@ In recent years, drones have emerged as versatile tools, significantly impacting
 
 The first step in enabling the bi-quadcopter flight was iteratively designing a robust truss structure that is light weight. Polylactic Acid (PLA) was used to maintain the lightweight nature. The truss strategically positioned the payload at the center, balancing it between the two drones. This positioning, coupled with the symmetry of the CrazyFlie drones’ motors and arms, resulted in a exploitable symmetry in controller design logic. 
 
-<img src='images/ACSI_project/Dual_CF_wTruss.png' alt="Dual_CF_wTruss" class="center">
+<img src='/images/ACSI_project/Dual_CF_wTruss.png' alt="Dual_CF_wTruss" class="center">
 <p style="text-align:center"> <i>SolidWorks Assembly of the Dual-Drone System. Note the cross shape of the truss allowing for an unobstructed view for the Flowdecks on the underside</i></p>
 
 
@@ -23,8 +23,8 @@ The bi-quadcopter setup's system modelling involved develop a state-space dynami
 <div style="text-align: center;">
 <table border="0">
  <tr>
-  <td><img src='images/ACSI_project/yaw_noChange.png' alt="yaw_noChange" class="center"></td>
-  <td><img src='images/ACSI_project/yaw_firmware changeDrone Position.png' alt="yaw_firmware changeDrone Position" class="center"></td>
+  <td><img src='/images/ACSI_project/yaw_noChange.png' alt="yaw_noChange" class="center"></td>
+  <td><img src='/images/ACSI_project/yaw_firmware changeDrone Position.png' alt="yaw_firmware changeDrone Position" class="center"></td>
  </tr>
 </table>
 </div>
@@ -36,8 +36,8 @@ Simulink was used to assess the response of the new controller on the hardware, 
 <div style="text-align: center;">
 <table border="0">
  <tr>
-  <td><img src='images/ACSI_project/defaultPWD.png' alt="defaultPWD" class="center"></td>
-  <td><img src='images/ACSI_project/linearPWD.png' alt="linearPWD" class="center"></td>
+  <td><img src='/images/ACSI_project/defaultPWD.png' alt="defaultPWD" class="center"></td>
+  <td><img src='/images/ACSI_project/linearPWD.png' alt="linearPWD" class="center"></td>
  </tr>
 </table>
 </div>
@@ -52,8 +52,8 @@ Initially, the drone underwent calibration without added mass, aiming to minimiz
 <div style="text-align: center;">
 <table border="0">
  <tr>
-  <td><img src='images/ACSI_project/left_right (baseline no mass)Average.png' alt="left_right (baseline no mass)Average" class="center"></td>
-  <td><img src='images/ACSI_project/left_right (Kp_600 Kd_6_no mass)Average.png' alt="left_right (Kp_600 Kd_6_no mass)Average" class="center"></td>
+  <td><img src='/images/ACSI_project/left_right (baseline no mass)Average.png' alt="left_right (baseline no mass)Average" class="center"></td>
+  <td><img src='/images/ACSI_project/left_right (Kp_600 Kd_6_no mass)Average.png' alt="left_right (Kp_600 Kd_6_no mass)Average" class="center"></td>
  </tr>
 </table>
 </div>
@@ -65,8 +65,8 @@ Following this, the drone was calibrated with an added mass of approximately 8 g
 <div style="text-align: center;">
 <table border="0">
  <tr>
-  <td><img src='images/ACSI_project/left_right_with_mass (Kp_600 Kd_6)Average.png' alt="left_right_with_mass (Kp_600 Kd_6)Average" class="center"></td>
-  <td><img src='images/ACSI_project/left_right_with_mass (Kp_800 Kd_8)Average.png' alt="left_right_with_mass (Kp_800 Kd_8)Average" class="center"></td>
+  <td><img src='/images/ACSI_project/left_right_with_mass (Kp_600 Kd_6)Average.png' alt="left_right_with_mass (Kp_600 Kd_6)Average" class="center"></td>
+  <td><img src='/images/ACSI_project/left_right_with_mass (Kp_800 Kd_8)Average.png' alt="left_right_with_mass (Kp_800 Kd_8)Average" class="center"></td>
  </tr>
 </table>
 </div>
