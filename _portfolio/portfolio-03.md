@@ -1,5 +1,5 @@
 ---
 title: "Buggy Control Project"
-excerpt: "24-677 project, Carnegie Mellon University <br/><img src=''>"
+excerpt: "24-677 course project, Carnegie Mellon University <br/><img src=''>"
 collection: portfolio
 ---
