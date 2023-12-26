@@ -1,6 +1,6 @@
 ---
 title: "Control Stabilization for Bi-Quadcopter Payload Delivery System"
-excerpt: "24-774 course project, Carnegie Mellon University <br/><img src='/images/ACSI_project/coverimage_1000x500.jpg'>"
+excerpt: "24-774 course project, Carnegie Mellon University <br/><img src='/images/ACSI_project/coverimage_500x250.jpg'>"
 collection: portfolio
 ---
 
