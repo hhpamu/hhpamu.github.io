@@ -101,7 +101,21 @@ Skills
     * H2 controller <i>(beginner)</i>
     * H infinity controller <i>(beginner)</i>
 * <b>Simultaneous localization and mapping (SLAM)</b> <i>(beginner)</i>
-* <b>Machine Learning</b> <i>(beginner)</i>
+* <b>Machine Learning</b> <i>(intermediate)</i>
+    * Regression and Classification methods 
+      * Linear least squares and Logistic regression
+      * Support Vector Machines
+      * Decision trees
+      * K-means
+    * Decision trees
+    * Feature engineering
+    * Neural networks
+* <b>Deep Learning</b> <i>(intermediate)</i>
+    * Optimization algorithms
+    * Convolutional Neural Networks (CNNs)
+    * Graph Neural Networks (GNNs)
+    * Recurrent Neural Networks (RNNs)
+    * Autoencoders
 
 <!---
 * <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
