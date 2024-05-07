@@ -116,7 +116,7 @@ Skills
     * Graph Neural Networks (GNNs)
     * Recurrent Neural Networks (RNNs)
     * Autoencoders
-    * Generative Adversarial Algorthms (GANs)
+    * Generative Adversarial Networks (GANs)
     * Transformers
 
 <!---
