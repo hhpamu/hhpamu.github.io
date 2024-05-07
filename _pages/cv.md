@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://drive.google.com/file/d/1k-sTIBQyI3lvYCHtUs62NLoTXpw9sgaK/view?usp=sharing" target="_blank"><b>PDF version of my resume</b></a>
+<a href="https://drive.google.com/file/d/1Mn73ADR8qQeypnWup731lfH4DhfrVloy/view?usp=sharing" target="_blank"><b>PDF resume</b></a>
 
 Education
 ======
@@ -20,19 +20,19 @@ Education
 Research Experience
 ======
 * **Graduate Student Researcher at Biohybrid and Organic Robotics Group**, Carnegie Mellon University, Septermber 2022-Present
-  * Evaluated the feasibility of using PyElastica, a Cosserat rod-based simulation environment in Python, for simulating musculoskeletal systems
-  * Currently modelling adaptability of muscles under exercise in PyElastica
+  * Developed foundational simulation tools for musculoskeletal systems by leveraging Python-based soft-body simulation packages to assist biohybrid robot design
+  * Enabled simulation of adaptive muscles under strength training by developing algorithms to integrate exercise history and fatigue dynamics
+  * Demonstrated modeling capabilities by replicating Aplysia Californica’s I2 muscle force response and fatigue trends using developed tools with ~3.67% error relative to experimental data
 
 * **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2021
-  * Developed a modified Vicsek model in MATLAB to incorporate physical boundaries
+  * Enabled visualization of particle trajectories with enhanced accuracy by developing a modified Vicsek model in MATLAB that incorporates elastic collisions within a bounded observation space
   * Modelled elastic collisions and implemented particle trajectory visualization using plot function
 
 * **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, May 2021-May 2022
-  * Sourced the original and alternative components based on references and vendor listings
-  * Built a hydrodynamic treadmill with a scale-free vertical microscope, to observe bacteria growth in oil-water interfaces in ocean conditions
+  * Designed components for a hydrodynamic treadmill, to observe bacteria growth in oil-water interfaces in ocean conditions
+  * Sourced the original and alternative components based on references and vendor listings for fabricating the treadmill
   * Designed and fabricated 100:1 and 5:1 reduction ratio gear sets using laser cut acrylic for controlling the speed of the treadmill chamber
-  * Attempted implementing a more refined chambercontrol using Arduino
-  * Related preprint available at: https://arxiv.org/abs/2212.00627
+  * Publication available at [DOI: 10.1021/acs.est.3c04902](https://doi.org/10.1021/acs.est.3c04902)
 
 * **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois, May 2021-May 2022
   * Designed and fabricated flexible connectors using 500 psi Dragon Skin 30 silicone to emulate a physical pin joint for Fiber Reinforced Elastomeric Enclosures (FREEs) with the end goal of building a network of FREEs for applications in other robotics projects
@@ -46,7 +46,7 @@ Additional Experience
 ======
 * **MechSE Innovation Studio Volunteer**, University of Illinois, March 2020-May 2022
   * Assisted an average of 15 students per day in setting 3D prints for mechanical design and project-based courses
-  * Troubleshooted technical maintenance issues of 3D Printer equipment to ensure smooth operation by fixing position of carriage on guide rails and programming printer to re-calibrate settings 
+  * Troubleshooted technical maintenance issues of 3D Printer equipment to ensure smooth operation by fixing position of extruder head on guide rails and programming printer to re-calibrate settings 
   * Monitored student prints for quality and prevented failures
   * Managed part sales and inventory during the academic year
   * Maintained tools and equipment in working condition to reduce user wait times
@@ -116,6 +116,8 @@ Skills
     * Graph Neural Networks (GNNs)
     * Recurrent Neural Networks (RNNs)
     * Autoencoders
+    * Generative Adversarial Algorthms (GANs)
+    * Transformers
 
 <!---
 * <b>Engineering Equation Solver (EES)</b> <i>(intermediate)</i>
@@ -139,6 +141,8 @@ Relevant Coursework
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-691.html" target="_blank">24-691 Special Topics: Mechanical Engineering Project Management</a>
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-774.html" target="_blank">24-774 Special Topics: Advanced Control Systems Integration</a>
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-787.html" target="_blank">24-787 Machine Learning and Artificial Intelligence for Engineers</a>
+  * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-789.html" target="_blank">24-788 Introduction to Deep Learning</a>
+  * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-789.html" target="_blank">24-789 Intermediate Deep Learning for Engineers</a>
 
 <!---
   * <a href="https://www.meche.engineering.cmu.edu/education/courses/24-773.html" target="_blank">24-773 Special Topics: Multivariable Linear Control</a> -**In Progress**
