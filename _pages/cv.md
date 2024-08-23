@@ -126,6 +126,7 @@ Skills
 
 Certifications
 ======
+* <a href="https://www.kaggle.com/learn/certification/himahrithikpamu/intro-to-sql" target="_blank"><b>Intro to SQL</b></a>, August 2024
 * <a href="https://www.udemy.com/certificate/UC-5db7143b-9782-4dcb-8fc7-be8b445a2539/" target="_blank"><b>Geometric Dimensioning and Tolerancing (GD&T): Basics</b></a>, May 2024
 * <a href="https://coursera.org/share/0cd29318ece6e100f4343de9b5c11a39" target="_blank"><b>Machine Learning Specialization</b></a>
   * <a href="https://coursera.org/share/899fae03d60b723c35f679eefcc0d6f5" target="_blank">Supervised Machine Learning: Regression and Classification</a>, December 2022
