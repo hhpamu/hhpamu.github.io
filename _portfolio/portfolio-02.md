@@ -120,6 +120,7 @@ The team consisted of <a href="https://www.linkedin.com/in/peter-blumenstein-595
 
 
 **Acknowledgements**
+
 We would like to express our sincere gratitude to Dr. Mark Bedillion, whose expertise, understanding, and patience, added considerably to our experience and understanding of control systems and their implementation. 
 We would also like to thank Dr. Aaron Johnson for his assistance in developing the dynamics model of our project.
 Additionally, we are indebted to Khai Nguyen, the teaching assistant for 24-774 Special Topics: Advanced Control Systems Integration for Fall 2023, for his invaluable assistance throughout this project. H
