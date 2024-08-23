@@ -100,6 +100,7 @@ Overall, the results demonstrated the practical viability of the Bi-Quadcopter P
 
 
 **Conclusion**
+
 The project demonstrated that the dual drone system, after stabilization, supports a higher payload than a single drone. Further enhancements were observed with the application of the adaptive controller. This advanced control allowed the drone to efficiently execute the load pickup, compare baseline and measured PWM, and appropriately scale PID values. With the tuned PID gains, the drone successfully performed the left-right lateral translation test for roll flight operation, affirming the effectiveness of the overall control system.
 
 To conclude, the integration of two CrazyFlie drones, connected via a rigid 3D printed truss and equipped with a magnet-based payload delivery mechanism, marks a significant advancement. Our dynamics model, leveraging state space representation and onboard Cascaded PID controllers, ensured precise control. Addressing initial stability issues through firmware adjustments and the adaptive controller adjusting for payload variations, resulted in a notably stable and smooth operation of the bi-quadcopter system.
