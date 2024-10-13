@@ -1,18 +1,18 @@
 ---
-title: "Hydrodynamic Treadmill Reveals Reduced Rising Speeds of Oil Droplets Deformed by Marine Bacteria"
+title: "Hitting the Gym: Reinforcement Learning Control of Exercise-Strengthened Biohybrid Robots in Simulation"
 collection: publications
-permalink: /publication/2023-09-07-UIUC
-date: 2023-09-07 
-venue: 'Environmental Science & Technology'
-paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.est.3c04902' 
-citation: 'Hickl, Vincent, Hima Hrithik Pamu, and Gabriel Juarez. "Hydrodynamic Treadmill Reveals Reduced Rising Speeds of Oil Droplets Deformed by Marine Bacteria." Environmental Science & Technology 57.37 (2023): 14082-14089.'
+permalink: /publication/2024-08-28-CMU-preprint
+date: 2024-08-28 
+venue: '-'
+paperurl: 'https://arxiv.org/abs/2408.16069' 
+citation: 'Schaffer, Saul, Hima Hrithik Pamu, and Victoria A. Webster-Wood. "Hitting the Gym: Reinforcement Learning Control of Exercise-Strengthened Biohybrid Robots in Simulation." arXiv preprint arXiv:2408.16069 (2024).'
 ---
  
  
  
-In marine environments, microscopic droplets of oil can be transported over large distances in the water column. Bacterial growth on the droplets’ surface can deform the oil–water interface to generate complex shapes and significantly enlarge droplets. Understanding the fate of spilled oil droplets requires bridging these length scales and determining how microscale processes affect the large-scale transport of oil. Here, we describe an experimental setup, the hydrodynamic treadmill, developed to keep rising oil droplets stationary in the lab frame for continuous and direct observation. Oil droplets with radii 10 < R < 100 \\μm were colonized and deformed by bacteria over several days before their effective rising speeds were measured. The rising speeds of deformed droplets were significantly slower than those of droplets without bacteria. This decrease in rising speed is understood by an increase in drag force and a decrease in buoyancy as a result of bio-aggregate formation at the droplet surface. Additionally, we found sinking bio-aggregate particles of oil and bacterial biofilms and quantified their composition using fluorescence microscopy. Our experiments can be adapted to further study the interactions between oil droplets and marine organisms and could significantly improve our understanding of the transport of hydrocarbons and complex aggregates.
+Animals can accomplish many incredible behavioral feats across a wide range of operational environments and scales that current robots struggle to match. One explanation for this performance gap is the extraordinary properties of the biological materials that comprise animals, such as muscle tissue. Using living muscle tissue as an actuator can endow robotic systems with highly desirable properties such as self-healing, compliance, and biocompatibility. Unlike traditional soft robotic actuators, living muscle biohybrid actuators exhibit unique adaptability, growing stronger with use. The dependency of a muscle's force output on its use history endows muscular organisms the ability to dynamically adapt to their environment, getting better at tasks over time. While muscle adaptability is a benefit to muscular organisms, it currently presents a challenge for biohybrid researchers: how does one design and control a robot whose actuators' force output changes over time? Here, we incorporate muscle adaptability into a many-muscle biohybrid robot design and modeling tool, leveraging reinforcement learning as both a co-design partner and system controller. As a controller, our learning agents coordinated the independent contraction of 42 muscles distributed on a lattice worm structure to successfully steer it towards eight distinct targets while incorporating muscle adaptability. As a co-design tool, our agents enable users to identify which muscles are important to accomplishing a given task. Our results show that adaptive agents outperform non-adaptive agents in terms of maximum rewards and training time. Together, these contributions can both enable the elucidation of muscle actuator adaptation and inform the design and modeling of adaptive, performant, many-muscle robots.
 
-[Download paper here](https://pubs.acs.org/doi/abs/10.1021/acs.est.3c04902)
+[Download preprint here](https://arxiv.org/abs/2408.16069)
 
 <!---
 Recommended citation: Hickl, Vincent & Pamu, Hima & Juarez, Gabriel. (2022). "Direct observations of rising oil droplets deformed by hydrocarbonoclastic bacteria" https://doi.org/10.48550/arXiv.2212.00627 <i>Journal 1</i>. 1(1).
