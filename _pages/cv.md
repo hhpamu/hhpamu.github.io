@@ -126,14 +126,17 @@ Skills
 
 Certifications
 ======
-* <a href="https://www.kaggle.com/learn/certification/himahrithikpamu/intro-to-sql" target="_blank"><b>Intro to SQL</b></a>, August 2024
-* <a href="https://www.udemy.com/certificate/UC-5db7143b-9782-4dcb-8fc7-be8b445a2539/" target="_blank"><b>Geometric Dimensioning and Tolerancing (GD&T): Basics</b></a>, May 2024
-* <a href="https://coursera.org/share/0cd29318ece6e100f4343de9b5c11a39" target="_blank"><b>Machine Learning Specialization</b></a>
-  * <a href="https://coursera.org/share/899fae03d60b723c35f679eefcc0d6f5" target="_blank">Supervised Machine Learning: Regression and Classification</a>, December 2022
-  * <a href="https://coursera.org/share/efbad259c2e34ea281db03c1aa9c67cd" target="_blank">Advanced Learning Algorithms</a>, June 2023
-  * <a href="https://coursera.org/share/6fdff224c5e69a4ff089b58a4f12606f" target="_blank">Unsupervised Learning, Recommenders, Reinforcement Learning</a>, December 2023
 
+* <a href="https://www.udemy.com/certificate/UC-6b7c04e9-1848-4571-8f7d-4c86311c440e/" target="_blank"><b>FMEA: Failure, Modes, Effects, Analysis, October 2024
+* <a href="https://www.kaggle.com/learn/certification/himahrithikpamu/intro-to-sql" target="_blank"><b>Intro to SQL</b></a>, August 2024
+* <a href="https://www.udemy.com/certificate/UC-d1655238-8a30-4837-8d22-83dc14903639/" target="_blank"><b>Basics of Tolerance Analyses- Stackup and Fits</b></a>, July 2024
+* <a href="https://www.udemy.com/certificate/UC-5db7143b-9782-4dcb-8fc7-be8b445a2539/" target="_blank"><b>Geometric Dimensioning and Tolerancing (GD&T): Basics</b></a>, May 2024
+* <a href="https://coursera.org/share/0cd29318ece6e100f4343de9b5c11a39" target="_blank"><b>Machine Learning Specialization</b></a>, December 2023
 * <a href="https://www.citiprogram.org/verify/?w091e9199-0fb3-4cd2-bec1-ed5df8ce3e80-50588328" target="_blank"><b>Physical Science Responsible Conduct of Research Course</b></a>, September 2022
+
+<!--  * <a href="https://coursera.org/share/899fae03d60b723c35f679eefcc0d6f5" target="_blank">Supervised Machine Learning: Regression and Classification</a>, December 2022
+  * <a href="https://coursera.org/share/efbad259c2e34ea281db03c1aa9c67cd" target="_blank">Advanced Learning Algorithms</a>, June 2023
+  * <a href="https://coursera.org/share/6fdff224c5e69a4ff089b58a4f12606f" target="_blank">Unsupervised Learning, Recommenders, Reinforcement Learning</a>, December 2023-->
 
 Relevant Coursework
 ======
