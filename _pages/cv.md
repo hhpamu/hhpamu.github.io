@@ -127,7 +127,7 @@ Skills
 Certifications
 ======
 
-* <a href="https://www.udemy.com/certificate/UC-6b7c04e9-1848-4571-8f7d-4c86311c440e/" target="_blank"><b>FMEA: Failure, Modes, Effects, Analysis, October 2024
+* <a href="https://www.udemy.com/certificate/UC-6b7c04e9-1848-4571-8f7d-4c86311c440e/" target="_blank"><b>FMEA: Failure, Modes, Effects, Analysis</b></a>, October 2024
 * <a href="https://www.kaggle.com/learn/certification/himahrithikpamu/intro-to-sql" target="_blank"><b>Intro to SQL</b></a>, August 2024
 * <a href="https://www.udemy.com/certificate/UC-d1655238-8a30-4837-8d22-83dc14903639/" target="_blank"><b>Basics of Tolerance Analyses- Stackup and Fits</b></a>, July 2024
 * <a href="https://www.udemy.com/certificate/UC-5db7143b-9782-4dcb-8fc7-be8b445a2539/" target="_blank"><b>Geometric Dimensioning and Tolerancing (GD&T): Basics</b></a>, May 2024
