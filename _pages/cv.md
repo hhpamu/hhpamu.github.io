@@ -24,14 +24,12 @@ Research Experience
   * Enabled simulation of adaptive muscles under strength training by developing algorithms to integrate exercise history and fatigue dynamics
   * Demonstrated modeling capabilities by replicating Aplysia Californica’s I2 muscle force response and fatigue trends using developed tools with ~3.67% error relative to experimental data
 
-* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2021
+* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, January 2021-May 2022
   * Enabled visualization of particle trajectories with enhanced accuracy by developing a modified Vicsek model in MATLAB that incorporates elastic collisions within a bounded observation space
   * Modelled elastic collisions and implemented particle trajectory visualization using plot function
-
-* **Undergraduate Research Assistant at Juarez Research Group**, University of Illinois, May 2021-May 2022
   * Designed components for a hydrodynamic treadmill, to observe bacteria growth in oil-water interfaces in ocean conditions
   * Sourced the original and alternative components based on references and vendor listings for fabricating the treadmill
-  * Designed and fabricated 100:1 and 5:1 reduction ratio gear sets using laser cut acrylic for controlling the speed of the treadmill chamber
+  * Designed and fabricated 100:1 and 5:1 reduction ratio gear sets using laser cut acrylic for speed control of treadmill chamber
   * Publication available at [DOI: 10.1021/acs.est.3c04902](https://doi.org/10.1021/acs.est.3c04902)
 
 * **Undergraduate Research Assistant at Monolithic Systems Lab**, University of Illinois, May 2021-May 2022
