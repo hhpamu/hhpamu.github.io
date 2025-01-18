@@ -20,7 +20,7 @@ Project 4: Implement an EKF SLAM
 <table border="0">
  <tr>
   <td><img src='/images/MCT_project/Bicycle1.png' alt="bicycle model" class="center"></td>
-  <td><img src='/images/MCT_project/Biycle2.png' alt="slip conditions" class="center"></td>
+  <td><img src='/images/MCT_project/Bicycle2.png' alt="slip conditions" class="center"></td>
  </tr>
 </table>
 </div>
@@ -40,6 +40,7 @@ The system satisfies physical constraints that are defined as:
 [INSERT PHYS EQS]
 
 for the model parameters defined in table below.
+
 | Name       | Description                                  | Unit        | Value                |
 |------------|----------------------------------------------|-------------|----------------------|
 | (ẋ, ẏ)    | Vehicle's velocity along the direction of the vehicle frame | m/s   | State                |
@@ -156,7 +157,7 @@ The trajectory of the vehicle was provided to students as a csv file that the co
 <table border="0">
  <tr>
   <td><img src='/images/MCT_project/buggy_track1.png' alt="buggy track irl" class="center"></td>
-  <td><img src='/images/MCT_project/buggy-track2.png' alt="buggy track webots" class="center"></td>
+  <td><img src='/images/MCT_project/buggy_track2.png' alt="buggy track webots" class="center"></td>
  </tr>
 </table>
 </div>
