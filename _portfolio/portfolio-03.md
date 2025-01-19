@@ -209,7 +209,6 @@ The trajectory of the vehicle was provided to students as a csv file that the co
 
 
 In this project, we used Python to develop our controllers and observers and Webots to run our simulations. We also used Matlab to perform calculations for controller design as needed. The simulation code flow is shown below.
-[simulation code flow image]
 
 <img src='/images/MCT_project/sim_codeflow.png' alt="sim model" class="center">
 <p style="text-align:center"> <i>Simulation code flow</i></p>
@@ -217,10 +216,33 @@ In this project, we used Python to develop our controllers and observers and Web
 The driver functions that control the car take the desired steering angle δ and a throttle input ranging from 0 to 1 derived from the desired longitudinal force F.
 
 **Results**
-To evaluate the performance of the simulation model, I tested the model on the buggy track around CMU, and evaluated the time to complete the track and the deviation from the main path. The model was able to complete the track in less than 120 seconds and had an average deviation less than 3 meters from the optimal track path. This proved to work substantially better than the real world buggy that are raced every year around CMU.
 
-This project was successfully able to design a controller for a tractor to autonomously complete the buggy track around CMU in a time of less than 120 seconds and have a minimum deviation of less than 3 meters. It was able to implement different iterations of the lateral controller to clear the performance evaluations.
+The controllers were tuned to meet several performance requirements for each controller in the simulation track. Criteria for a successful race were
+- lap time
+- maximum deviation from reference trajectory
+- average deviation from reference trajectory
 
+The best simulation run used an LQR controller with EKF SLAM to complete the track in less than 180 seconds and had a minimum deviation less than 5 meters from the trajectory; the results are also shown in the summary plot below.
+
+<!--
+<img src='/images/MCT_project/buggy_pid_results.jpg' alt="pid results" class="center">
+<p style="text-align:center"> <i>Simulation plots for tuned PID controller</i></p>
+
+
+<img src='/images/MCT_project/buggy_statefeed_results.jpg' alt="state feed results" class="center">
+<p style="text-align:center"> <i>Simulation plots for tuned state feedback controller</i></p>
+
+
+<img src='/images/MCT_project/buggy_lqr_results.jpg' alt="lqr results" class="center">
+<p style="text-align:center"> <i>Simulation plots for tuned LQR controller</i></p>
+
+
+<img src='/images/MCT_project/buggy_mpc_results.jpg' alt="mpc results" class="center">
+<p style="text-align:center"> <i>Simulation plots for tuned MPC controller</i></p>
+-->
+
+<img src='/images/MCT_project/buggy_ekfslam_results.jpg' alt="ekf slam results" class="center">
+<p style="text-align:center"> <i>Simulation plots for tuned EKF SLAM</i></p>
 
 
 **References**
