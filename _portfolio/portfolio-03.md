@@ -16,20 +16,36 @@ Project 4: Implement an EKF SLAM
 
 **Model**
 
-<div style="text-align: center;">
-<table border="0">
- <tr>
-  <td><img src='/images/MCT_project/Bicycle1.png' alt="bicycle model" class="center"></td>
-  <td><img src='/images/MCT_project/Bicycle2.png' alt="slip conditions" class="center"></td>
- </tr>
-</table>
-</div>
+<img src='/images/MCT_project/Bicycle1.png' alt="bicycle model" class="center">
+<p style="text-align:center"> <i>System Model. Bicycle model</i></p>
 
-<p style="text-align:center"> <i>System Model. Left: Bicycle model, Right: Tire slip angle</i></p>
+<img src='/images/MCT_project/Bicycle2.png' alt="bicycle model" class="center">
+<p style="text-align:center"> <i>System Model. Tire slip angle</i></p>
 
 The car in our simulation is modeled as a two wheeled vehicle with longitudinal and lateral dynamics. The system equations are as follows:
 
 [INSERT SYS EQS]
+
+\[
+\dot{y} = -\psi \dot{x} + \frac{2C_{\alpha}}{m} \left( \cos \delta \left( \delta - \frac{\dot{y} + l_r \dot{\psi}}{\dot{x}} \right) - \frac{\dot{y} - l_r \dot{\psi}}{\dot{x}} \right)
+\]
+
+\[
+\dot{x} = \psi \dot{y} + \frac{1}{m} (F - fm g)
+\]
+
+\[
+\dot{\psi} = \frac{2l_f C_{\alpha}}{I_z} \left( \delta - \frac{\dot{y} + l_r \dot{\psi}}{\dot{x}} \right) - \frac{2l_r C_{\alpha}}{I_z} \left( \frac{\dot{y} - l_r \dot{\psi}}{\dot{x}} \right)
+\]
+
+\[
+\dot{X} = \dot{x} \cos \psi - \dot{y} \sin \psi
+\]
+
+\[
+\dot{Y} = \dot{x} \sin \psi + \dot{y} \cos \psi
+\]
+
 
 The observable states are given as:
 
@@ -57,6 +73,7 @@ for the model parameters defined in table below.
 | f          | Rolling resistance coefficient              | N/A         | 0.025                |
 | delT       | Simulation timestep                         | sec         | 0.032                |
 
+<!--
 [INSERT TABLE]
 <table style="text-align: center; margin: auto;">
   <thead>
@@ -148,7 +165,7 @@ for the model parameters defined in table below.
     </tr>
   </tbody>
 </table>
-
+-->
 
 
 The trajectory of the vehicle was provided to students as a csv file that the contains (x, y) of the track as shown in [TRACK IMAGE]
