@@ -1,6 +1,6 @@
 ---
 title: "CMU Buggy Control Project"
-excerpt: "24-677 course project, Carnegie Mellon University <br/><img src=''>"
+excerpt: "24-677 course project, Carnegie Mellon University <br/><img src='/images/MCT_project/buggy_cover.png'>"
 collection: portfolio
 ---
 
