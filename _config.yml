@@ -84,7 +84,7 @@ author:
   avatar           : "Hima Hrithik Pamu 1536x1536.jpg"
   bio              : #"Your biography for the left-hand sidebar"
   location         : "Pittsburgh, PA"
-  employer         :
+  employer         : "Carnegie Mellon University"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=odyJmqMAAAAJ&hl=en&authuser=3"
   email            :
@@ -93,7 +93,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr           : "https://www.flickr.com/photos/202012929@N06/"
   facebook         :
   foursquare       :
   github           : "hhpamu"
