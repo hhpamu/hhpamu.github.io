@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://drive.google.com/file/d/1Mn73ADR8qQeypnWup731lfH4DhfrVloy/view?usp=sharing" target="_blank"><b>PDF resume</b></a>
+<a href="https://drive.google.com/file/d/13IhWW2SZbZz8PU7Gwr60_GfhtA-a72ec/view?usp=sharing" target="_blank"><b>PDF resume</b></a> Updated Jan 2025
+
+<a href="https://drive.google.com/file/d/1fu6dBLHhdcCtLFsFvs31NYKeTG_bsM47/view?usp=sharing" target="_blank"><b>PDF CV</b></a> Updated Jan 2025
 
 Education
 ======
