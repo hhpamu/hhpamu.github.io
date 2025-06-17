@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://drive.google.com/file/d/13IhWW2SZbZz8PU7Gwr60_GfhtA-a72ec/view?usp=sharing" target="_blank"><b>PDF resume</b></a> Updated Jan 2025
+<a href="https://drive.google.com/file/d/17e00XBlUxR5ceXHeUGkr0vo9_yl9Mkpd/view?usp=sharing" target="_blank"><b>PDF resume</b></a> Updated Jun 2025
 
-<a href="https://drive.google.com/file/d/1fu6dBLHhdcCtLFsFvs31NYKeTG_bsM47/view?usp=sharing" target="_blank"><b>PDF CV</b></a> Updated Jan 2025
+<a href="https://drive.google.com/file/d/1otD5EsdmpTzlVVpJzuDZ5GAiTpYotQCs/view?usp=sharing" target="_blank"><b>PDF CV</b></a> Updated Jun 2025
 
 Education
 ======
@@ -127,6 +127,10 @@ Skills
 Certifications
 ======
 
+* <a href="https://www.linkedin.com/learning/certificates/413b50bf1a3143a8d1ba29546d80448066245556d03d11473c710b54ac9fa379" target="_blank"><b>Learning Minitab (version Minitab 17)</b></a>, June 2025
+* <a href="https://www.udemy.com/certificate/UC-301d8ae9-6e7e-4068-a79f-312fadaf2271/" target="_blank"><b>Root Cause Analysis: Fishbone Diagram</b></a>, June 2025
+* <a href="https://www.linkedin.com/learning/certificates/4c9c73c187bbba72c11d624a67e1ccc2b3a73cdecf3e5155a98bb7cc977f32f6" target="_blank"><b>SAP S/4HANA Essential Training</b></a>, June 2025
+* <a href="https://www.linkedin.com/learning/certificates/4d993930039e3ed1c5ab8c991e9d86344ec60a2723cd9d7aefb7193bc96ca72f" target="_blank"><b>SAP S/4HANA: Beyond the Basics</b></a>, June 2025
 * <a href="https://www.udemy.com/certificate/UC-6b7c04e9-1848-4571-8f7d-4c86311c440e/" target="_blank"><b>FMEA: Failure, Modes, Effects, Analysis</b></a>, October 2024
 * <a href="https://www.kaggle.com/learn/certification/himahrithikpamu/intro-to-sql" target="_blank"><b>Intro to SQL</b></a>, August 2024
 * <a href="https://www.udemy.com/certificate/UC-d1655238-8a30-4837-8d22-83dc14903639/" target="_blank"><b>Basics of Tolerance Analyses- Stackup and Fits</b></a>, July 2024
