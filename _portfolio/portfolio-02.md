@@ -177,7 +177,7 @@ Estimated Total Size (MB): 708.88
 During training, I monitored both training and validation loss and accuracy, and tuned the model to maximize test performance.
 
 <img src='/images/Deep_Learning_Images/CIFAR10_CNN/final_loss_acc_plot.png' alt="final_loss_acc_plot" class="center">
-<p style="text-align:center"> <i>[final_loss_acc_plot]</i></p>
+<p style="text-align:center"> <i>Loss and Accuracy over training</i></p>
 
 The final model was trained for 50 epochs and achieved a test accuracy of 83.63%, demonstrating strong classification performance across multiple classes. The following are some key steps taken to improve:
   * a
