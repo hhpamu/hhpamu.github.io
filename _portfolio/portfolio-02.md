@@ -33,9 +33,12 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    
    Train Loss: 0.4474
    
+   
    Validation Loss: 0.7819
    
+   
    TOTAL EVALUATION LOSS: 16.13764
+   
 
    Increasing the number of neurons improved the model's performance on the test dataset by reducing the test loss. However, model 1 didnt generalize well enough as evidenced by the difference in training and validation losses.
 
@@ -58,7 +61,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    
    TOTAL EVALUATION LOSS: 14.82711
 
-   The validation and training are very close, indicating a good amount of generalization. For this combination, I just wanted to see if flipping the number of neurons made any difference, and apparently it improved the performance slightly, and generalized better compared to model 1. The plots are still jittery, likely due to a high learning rate.
+   The validation and training are very close, indicating a good amount of generalization. The plots are still jittery, likely due to a high learning rate.
 
   </td>
  </tr>
@@ -85,7 +88,6 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    The loss plots appear jittery, likely due to the high learning rate. However, adding an extra layer and running for more epochs appears to have improved the model's performance on the test data. The validation loss is higher than the training loss, indicating a minor degree of overfitting.
 
   </td>
-  
   <td>
    <i>Combination 4</i>
    <img src='/images/Deep_Learning_Images/Airfoil_Noise/comb4.png' alt="comb4" class="center">
@@ -103,7 +105,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    
    TOTAL EVALUATION LOSS: 11.91328
 
-   A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128, gave the lowest error on the test data. I believe that the complexity of the network and the larger batch size had the most impact in significantly lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high initially. Overall, there appears to be slight overfitting as the final validation error is higher than the training error.
+   A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128, gave the lowest error on the test data. The complexity of the network and the larger batch size had the most impact in lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high initially.
 
   </td>
  </tr>
@@ -123,7 +125,7 @@ In this project, I implemented a Convolutional Neural Network (CNN) to perform i
 
 ### Network Architecture
 The training pipeline included dataset normalization, data augmentation with random 45 degree rotation, random crop and random vertical flip, and network regularization using dropout. I defined a ResNet inspired CNN architecture consisting of multiple convolutional layers with ReLU activation and max-pooling, followed by fully connected layers for classification. Cross-entropy loss was used with the Adam optimizer.
-<!--
+<!---
 ```python
 ===================================================================================================================
 Layer (type:depth-idx)                   Input Shape               Kernel Shape              Output Shape
@@ -170,7 +172,7 @@ Params size (MB): 35.61
 Estimated Total Size (MB): 708.88
 ===================================================================================================================
 ```
--->
+--->
 
 ### Training
 
