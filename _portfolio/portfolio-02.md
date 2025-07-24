@@ -32,15 +32,12 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    </ul>
    
    Train Loss: 0.4474
-   
-   
+   <br><br>
    Validation Loss: 0.7819
-   
-   
+   <br><br>
    TOTAL EVALUATION LOSS: 16.13764
    
-
-   Increasing the number of neurons improved the model's performance on the test dataset by reducing the test loss. However, model 1 didnt generalize well enough as evidenced by the difference in training and validation losses.
+   <p>Increasing the number of neurons improved the model's performance on the test dataset by reducing the test loss. However, model 1 didnt generalize well enough as evidenced by the difference in training and validation losses.</p>
 
   </td>
   
