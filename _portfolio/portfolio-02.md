@@ -109,64 +109,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
  </tr>
 </table>
 
-
-Combination 1
-hid_dim = [64, 32],
-num_epochs = 1000,
-lr = 0.01,
-weight_decay = 1e-5,
-batch_size = 32
-
-Train Loss: 0.4474	Validation Loss: 0.7819
-TOTAL EVALUATION LOSS: 16.13764
-
-[comb1 IMAGE]
-Explanation
-Compared to the test run above, increasing the number of neurons improved the model's performance on the test dataset by reducing the test loss. However, model1 didnt generalize well enough as evidenced by the difference in training and validation losses.
-
-Combination 2
-hid_dim = [32, 64],
-num_epochs = 1000,
-lr = 0.01,
-weight_decay = 1e-5,
-batch_size = 32
-
-Train Loss: 0.4739	Validation Loss: 0.5971
-TOTAL EVALUATION LOSS: 14.82711
-
-[comb2 IMAGE]
-
-Explanation
-The validation and training are very close, indicating a a good amount of generalization. For this combination, I just wanted to see if flipping the number of neurons made any difference, and apparently it improved the performance slightly, and generalized better compared to model1. The plots are still jittery, likely due to a high learning rate.
-
-Combination 3
-hid_dim = [32, 64, 32],
-num_epochs = 2000,
-lr = 0.01,
-weight_decay = 1e-5,
-batch_size = 32
-
-Train Loss: 0.2237	Validation Loss: 0.5934
-TOTAL EVALUATION LOSS: 12.83629
-
-[comb3 IMAGE]
-
-Explanation
-The loss plots look jittery, probably because the learning rate is too high. However, adding an extra layer and running for more epochs appears to have improved the model's performance on the test data. The validation loss is higher than the train loss, indicating minor degree of overfitting.
-
-Combination 4
-hid_dim = [64, 128, 256, 256, 128, 64],
-num_epochs = 2500,
-lr = 0.0005,
-weight_decay = 1e-6,
-batch_size = 128
-
-Train Loss: 0.0233	Validation Loss: 0.1845
-TOTAL EVALUATION LOSS: 11.91328
-
-[comb4 IMAGE]
-
-****Explanation****
+### Explanation
 A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128 seemed to give the lowest error on the test data. I believe that the complexity of the network and the larger batch size impacted the most in significantly lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high in the beginning. Overall, there appears to be slight overfitting as the final validation error is higher than the training error. I didnt get a chance to fix this due to time constraints.
 
 ### References
