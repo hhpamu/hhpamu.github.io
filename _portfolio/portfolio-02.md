@@ -9,7 +9,7 @@ The various deep learning works seen here are part of the Introduction to Deep L
 # Airfoil Self-Noise Prediction Using a Multi-Layer Perceptron
 
 <img src='/images/Deep_Learning_Images/Airfoil_Noise/airfoil_figure.png' alt="airfoil_figure" class="center">
-<p style="text-align:center"> <i>[AIRFOIL FIGURE]</i></p>
+<p style="text-align:center"> <i>Airfoil noise factors</i></p>
 
 This project focused on developing a neural network to predict airfoil self-noise based on five input features: frequency, angle of attack, chord length, free-stream velocity, and suction side displacement thickness. The target output was the scaled sound pressure level in decibels. The task used a regression-based formulation, and the model was trained using PyTorch.
 
