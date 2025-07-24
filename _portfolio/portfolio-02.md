@@ -89,7 +89,7 @@ In this project, I implemented a Convolutional Neural Network (CNN) to perform i
 ### Network Architecture
 The training pipeline included dataset normalization, data augmentation with random 45 degree rotation, random crop and random vertical flip, and network regularization using dropout. I defined a ResNet inspired CNN architecture consisting of multiple convolutional layers with ReLU activation and max-pooling, followed by fully connected layers for classification. Cross-entropy loss was used with the Adam optimizer.
 
-```
+```python
 ===================================================================================================================
 Layer (type:depth-idx)                   Input Shape               Kernel Shape              Output Shape
 ===================================================================================================================
@@ -153,12 +153,135 @@ The final model was trained for 50 epochs and achieved a test accuracy of 83.63%
 CIFAR 10 Dataset: <a href="https://www.cs.toronto.edu/~kriz/cifar.html" target="_blank">www.cs.toronto.edu/~kriz/cifar.html</a>
 
 
+# Graph Neural Network for Molecular Solubility Prediction
+This project explored the use of Graph Neural Networks (GNNs) for predicting aqueous solubility from molecular structure, using PyTorch Geometric. Each molecule was represented as a graph with atoms as nodes and bonds as edges. Node and edge features were precomputed, and the task was framed as a regression problem to predict log solubility.
+
+I implemented a GCN-based model using the GCNConv layer from torch_geometric.nn, and trained it using mean squared error (MSE) loss. The dataset was preprocessed using the provided get_dataset() function, and the training loop was augmented with early stopping and model checkpointing to prevent overfitting.
+
+The model was configured with 8 graph convolutional layers, each using 128 channels, followed by a single linear layer that maps the 128-dimensional output to the final prediction. Batch normalization was applied after convolutional layers 1, 2, 3, 5, and 6, with the selection based on trial and error. The training objective used mean squared error loss (nn.MSELoss) appropriate for the regression task. Optimization was performed using Adam with a learning rate of 0.0001 and weight decay of 1e-5. The model was trained for 100 epochs, which provided the best balance between underfitting and overfitting. The model met performance expectations by achieving a sum of mean square errors between the model prediction and the label of 167.
+
+<img src='/images/Deep_Learning/GNN/GNN_loss_plot.png' alt="GNN_loss_plot" class="center">
+<p style="text-align:center"> <i>[GNN_loss_plot]</i></p>
+
+<img src='/images/Deep_Learning/GNN/pred_label_plot.png' alt="pred_label_plot" class="center">
+<p style="text-align:center"> <i>[pred_label_plot]</i></p>
+
+### References
+Kipf, Thomas N., and Max Welling. "Semi-supervised classification with graph convolutional networks." arXiv preprint arXiv:1609.02907 (2016).
+
 # LSTM Modeling of Transient Hagen–Poiseuille Flow
 
+This project involved building and training an LSTM model to predict the transient velocity profile of incompressible laminar flow through a pipe, governed by the simplified Navier–Stokes equations for Hagen–Poiseuille flow. The goal was to learn the evolution of the axial velocity field from initial flow conditions using a recurrent neural network trained on simulated time series data.
+
+I implemented a multi-layer LSTM using PyTorch’s nn.LSTMCell, enabling step-wise control over hidden states. The model was trained on a dataset consisting of velocity measurements at 17 spatial points over 20 time steps, where each input sequence began with physical flow parameters (diameter, pressure gradient, viscosity, density) followed by 19 steps of observed velocity. During testing, only the initial condition was provided to autoregressively predict the entire 20-step sequence.
+
+```python
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+FlowLSTM                                 [64, 19, 17]              --
+├─LSTMCell: 1-1                          [64, 128]                 75,264
+├─LSTMCell: 1-2                          [64, 128]                 132,096
+├─Linear: 1-3                            [64, 17]                  2,193
+├─LSTMCell: 1-4                          [64, 128]                 (recursive)
+├─LSTMCell: 1-5                          [64, 128]                 (recursive)
+├─Linear: 1-6                            [64, 17]                  (recursive)
+├─LSTMCell: 1-7                          [64, 128]                 (recursive)
+├─LSTMCell: 1-8                          [64, 128]                 (recursive)
+├─Linear: 1-9                            [64, 17]                  (recursive)
+├─LSTMCell: 1-10                         [64, 128]                 (recursive)
+├─LSTMCell: 1-11                         [64, 128]                 (recursive)
+├─Linear: 1-12                           [64, 17]                  (recursive)
+├─LSTMCell: 1-13                         [64, 128]                 (recursive)
+├─LSTMCell: 1-14                         [64, 128]                 (recursive)
+├─Linear: 1-15                           [64, 17]                  (recursive)
+├─LSTMCell: 1-16                         [64, 128]                 (recursive)
+├─LSTMCell: 1-17                         [64, 128]                 (recursive)
+├─Linear: 1-18                           [64, 17]                  (recursive)
+├─LSTMCell: 1-19                         [64, 128]                 (recursive)
+├─LSTMCell: 1-20                         [64, 128]                 (recursive)
+├─Linear: 1-21                           [64, 17]                  (recursive)
+├─LSTMCell: 1-22                         [64, 128]                 (recursive)
+├─LSTMCell: 1-23                         [64, 128]                 (recursive)
+├─Linear: 1-24                           [64, 17]                  (recursive)
+├─LSTMCell: 1-25                         [64, 128]                 (recursive)
+├─LSTMCell: 1-26                         [64, 128]                 (recursive)
+├─Linear: 1-27                           [64, 17]                  (recursive)
+├─LSTMCell: 1-28                         [64, 128]                 (recursive)
+├─LSTMCell: 1-29                         [64, 128]                 (recursive)
+├─Linear: 1-30                           [64, 17]                  (recursive)
+├─LSTMCell: 1-31                         [64, 128]                 (recursive)
+├─LSTMCell: 1-32                         [64, 128]                 (recursive)
+├─Linear: 1-33                           [64, 17]                  (recursive)
+├─LSTMCell: 1-34                         [64, 128]                 (recursive)
+├─LSTMCell: 1-35                         [64, 128]                 (recursive)
+├─Linear: 1-36                           [64, 17]                  (recursive)
+├─LSTMCell: 1-37                         [64, 128]                 (recursive)
+├─LSTMCell: 1-38                         [64, 128]                 (recursive)
+├─Linear: 1-39                           [64, 17]                  (recursive)
+├─LSTMCell: 1-40                         [64, 128]                 (recursive)
+├─LSTMCell: 1-41                         [64, 128]                 (recursive)
+├─Linear: 1-42                           [64, 17]                  (recursive)
+├─LSTMCell: 1-43                         [64, 128]                 (recursive)
+├─LSTMCell: 1-44                         [64, 128]                 (recursive)
+├─Linear: 1-45                           [64, 17]                  (recursive)
+├─LSTMCell: 1-46                         [64, 128]                 (recursive)
+├─LSTMCell: 1-47                         [64, 128]                 (recursive)
+├─Linear: 1-48                           [64, 17]                  (recursive)
+├─LSTMCell: 1-49                         [64, 128]                 (recursive)
+├─LSTMCell: 1-50                         [64, 128]                 (recursive)
+├─Linear: 1-51                           [64, 17]                  (recursive)
+├─LSTMCell: 1-52                         [64, 128]                 (recursive)
+├─LSTMCell: 1-53                         [64, 128]                 (recursive)
+├─Linear: 1-54                           [64, 17]                  (recursive)
+├─LSTMCell: 1-55                         [64, 128]                 (recursive)
+├─LSTMCell: 1-56                         [64, 128]                 (recursive)
+├─Linear: 1-57                           [64, 17]                  (recursive)
+==========================================================================================
+Total params: 209,553
+Trainable params: 209,553
+Non-trainable params: 0
+Total mult-adds (G): 32.28
+==========================================================================================
+Input size (MB): 0.08
+Forward/backward pass size (MB): 2.66
+Params size (MB): 0.84
+Estimated Total Size (MB): 3.58
+==========================================================================================
+```
+
+### Training
+Training was performed using MSE loss and the Adam optimizer, with tuned hyperparameters to minimize L1 and L2 errors. The model was evaluated by comparing predicted flow profiles to the true time evolution across the pipe radius. The model was initially trained using three LSMCell layers with a batch size of 128 and dropout set to 0.1; however, this configuration yielded poor predictions, with L1 and L2 losses in the ranges of 1e-5 and 1e-3, respectively. After resolving shape and datatype mismatches, I reduced the model to two LSMCell layers, adjusted the batch size to 64, and increased the dropout rate to 0.15, which slightly improved the results but still produced unsatisfactory predictions. The final breakthrough occurred after correcting a timestep loop error in the forward and test methods, which resolved the prediction issue and yielded acceptable L1 and L2 losses. The final training setup consisted of 20 epochs, a learning rate of 0.001, a dropout rate of 0.15, and a batch size of 64.
+
+<img src='/images/Deep_Learning/LSTM/LSTM_loss_plot.png' alt="LSTM_loss_plot" class="center">
+<p style="text-align:center"> <i>[LSTM_loss_plot]</i></p>
+
+<img src='/images/Deep_Learning/LSTM/LSTM_pred_plot.png' alt="LSTM_pred_plot" class="center">
+<p style="text-align:center"> <i>[LSTM_pred_plot]</i></p>
+
+<img src='/images/Deep_Learning/LSTM/LSTM_truth_plot.png' alt="LSTM_truth_plot" class="center">
+<p style="text-align:center"> <i>[LSTM_truth_plot]</i></p>
+
+The final model achieved a total L1 error of 4580.517 and L2 error of 14.075, meeting satisfactory performance. The project demonstrates how sequence learning methods like LSTM can effectively capture temporal dynamics in physical systems governed by PDEs, and serve as surrogates for numerical solvers.
+
+### References
+The course assignment guide.
+Nina Prakash for providing her code for generating Hagen-Poiseuille flow data.
 
 # Airfoil Shape Generation Using Variational Autoencoders and GANs
 
 This project focused on generative modeling of airfoil geometries using Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). The input dataset consisted of 1,600 airfoil shapes from the UIUC Airfoil Database, preprocessed by interpolating to a shared x-coordinate grid and scaling y-coordinates to the range [−1, 1]. The generative models were trained to learn the underlying distribution of airfoil shapes using only the y-coordinates as input.
+
+### VAE model
+The VAE architecture employed a 3-layer encoder (256–512–512 units) and a 2-layer decoder (512–512 units), each with ReLU activations and a final Tanh activation in the decoder. The model was trained for 30 epochs using an MSE loss term, weighted equally, with a small KL divergence regularization term (weight = 0.0001). Adam optimizer was used with a learning rate of 0.001. Tuning included expanding layer widths and deepening the encoder and decoder to improve expressiveness. The resulting generated airfoils were consistent and realistic, although the diversity of shapes was somewhat limited.
+
+
+<img src='/images/Deep_Learning/Airfoil_Shape/VAE_Loss.png' alt="VAE_Loss" class="center">
+<p style="text-align:center"> <i>[VAE_Loss]</i></p>
+
+[  Real airfoils ] [  VAE reconstructed airfoils ]
+[  VAE generated airfoils ]
+
 
 # Face Image Generation Using GAN on CelebA Dataset
 
