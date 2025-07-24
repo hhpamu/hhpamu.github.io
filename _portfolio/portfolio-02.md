@@ -125,6 +125,7 @@ In this project, I implemented a Convolutional Neural Network (CNN) to perform i
 
 ### Network Architecture
 The training pipeline included dataset normalization, data augmentation with random 45 degree rotation, random crop and random vertical flip, and network regularization using dropout. I defined a ResNet inspired CNN architecture consisting of multiple convolutional layers with ReLU activation and max-pooling, followed by fully connected layers for classification. Cross-entropy loss was used with the Adam optimizer.
+
 <!---
 ```python
 ===================================================================================================================
