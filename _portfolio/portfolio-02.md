@@ -21,7 +21,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
 <table border="0">
  <tr>
   <td>
-   <i>Combination 1</i>
+   <p style="text-align:center"> <i>Combination 1</i></p>
    <img src='/images/Deep_Learning_Images/Airfoil_Noise/comb1.png' alt="comb1" class="center">
    <ul>
     <li>hid_dim = [64, 32]</li>
