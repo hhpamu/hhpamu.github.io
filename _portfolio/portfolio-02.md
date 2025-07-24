@@ -1,14 +1,16 @@
 ---
-title: "Deep Learning Projects"
+title: "Deep Learning Exercises"
 excerpt: "24-788 and 24-789 course exercises, Carnegie Mellon University <br/><img src='/images/ACSI_project/coverimage_500x250.jpg'>"
 collection: portfolio
 ---
 
 The various deep learning works seen here are part of the Introduction to Deep Learning and Intermediate Deep Learning coursework at Carnegie Mellon University.
 
-**Airfoil Self-Noise Prediction Using a Multi-Layer Perceptron**
+# Airfoil Self-Noise Prediction Using a Multi-Layer Perceptron
 
-[AIRFOIL FIGURE]
+
+<img src='/images/Deep_Learning/Airfoil_Noise/airfoil_figure.png' alt="airfoil_figure" class="center">
+<p style="text-align:center"> <i>[AIRFOIL FIGURE]</i></p>
 
 This project focused on developing a neural network to predict airfoil self-noise based on five input features: frequency, angle of attack, chord length, free-stream velocity, and suction side displacement thickness. The target output was the scaled sound pressure level in decibels. The task used a regression-based formulation, and the model was trained using PyTorch.
 
@@ -75,7 +77,7 @@ TOTAL EVALUATION LOSS: 11.91328
 ****Explanation****
 A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128 seemed to give the lowest error on the test data. I believe that the complexity of the network and the larger batch size impacted the most in significantly lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high in the beginning. Overall, there appears to be slight overfitting as the final validation error is higher than the training error. I didnt get a chance to fix this due to time constraints.
 
-***References***
+### References
 Thomas F. Brooks, D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. NTRS Author Affiliations: PRC Kentron, Inc., Hampton, NASA Langley Research Center NTRS Report/Patent Number: L16528 NTRS Document ID: 19890016302 NTRS Research Center: Legacy CDMS (CDMS). July 1989. Url: https://ntrs.nasa.gov/citations/19890016302 (visited on 01/24/2023).
 
 RobertoLopez.Airfoil Self-Noise Data Set.Mar.2014.url:https://archive.ics.uci.edu/ml/datasets/airfoil+self-noise.
@@ -83,21 +85,21 @@ RobertoLopez.Airfoil Self-Noise Data Set.Mar.2014.url:https://archive.ics.uci.ed
 
 
 
-**CIFAR-10 Image Classification Using a Convolutional Neural Network**
+# CIFAR-10 Image Classification Using a Convolutional Neural Network
 
 In this project, I implemented a Convolutional Neural Network (CNN) to perform image classification on the CIFAR-10 dataset, which consists of 60,000 32×32 color images across 10 object categories. The goal was to train a model that generalizes well to unseen data while avoiding overfitting, using PyTorch as the primary framework. 
 
 <img src='/images/ACSI_project/Dual_CF_wTruss.png' alt="Dual_CF_wTruss" class="center">
 <p style="text-align:center"> <i>SolidWorks Assembly of the Dual-Drone System. Note the cross shape of the truss allowing for an unobstructed view for the Flowdecks on the underside</i></p>
 
-**LSTM Modeling of Transient Hagen–Poiseuille Flow**
+# LSTM Modeling of Transient Hagen–Poiseuille Flow
 
 
-**Airfoil Shape Generation Using Variational Autoencoders and GANs**
+# Airfoil Shape Generation Using Variational Autoencoders and GANs
 
 This project focused on generative modeling of airfoil geometries using Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). The input dataset consisted of 1,600 airfoil shapes from the UIUC Airfoil Database, preprocessed by interpolating to a shared x-coordinate grid and scaling y-coordinates to the range [−1, 1]. The generative models were trained to learn the underlying distribution of airfoil shapes using only the y-coordinates as input.
 
-**Face Image Generation Using GAN on CelebA Dataset**
+# Face Image Generation Using GAN on CelebA Dataset
 
 This project focused on applying Generative Adversarial Networks (GANs) to synthesize realistic face images using the CelebA dataset. The dataset consisted of 49,736 RGB face images, each resized to 128×128×3. The task was to synthesize new faces by learning a generative distribution using adversarial training. 
 
@@ -105,13 +107,13 @@ This project focused on applying Generative Adversarial Networks (GANs) to synth
 
 The GAN architecture consisted of a generator network that learned to map Gaussian noise vectors to synthetic images, and a discriminator that learned to classify real versus fake images using binary cross-entropy loss. Both networks were trained iteratively using the standard adversarial training loop. PyTorch was used for implementation and training on Google Colab with GPU acceleration.
 
-**Image Generation Using Denoising Diffusion Probabilistic Models**
+# Image Generation Using Denoising Diffusion Probabilistic Models
 
 In this project, I implemented a Denoising Diffusion Probabilistic Model (DDPM) to generate synthetic images of the digit "1" from the MNIST dataset. DDPMs operate by progressively adding Gaussian noise to images during a forward diffusion process and then learning to reverse this process to generate realistic data. A UNet-based architecture was trained to model this reverse trajectory by predicting the noise component at each step.
 
 
 **References**
 
-**Modeling PDE Dynamics with Transformer Architectures**
+# Modeling PDE Dynamics with Transformer Architectures
 
-**Self-Supervised Visual Representation Learning with SimCLR on CIFAR-10**
+# Self-Supervised Visual Representation Learning with SimCLR on CIFAR-10
