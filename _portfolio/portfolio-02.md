@@ -42,7 +42,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
   </td>
   
   <td>
-   <i>Combination 2</i>
+   <p style="text-align:center"> <i>Combination 2</i></p>
    <img src='/images/Deep_Learning_Images/Airfoil_Noise/comb2.png' alt="comb2" class="center">
    <ul>
     <li>hid_dim = [32, 64]</li>
@@ -66,7 +66,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
  
  <tr>
   <td>
-   <i>Combination 3</i>
+   <p style="text-align:center"> <i>Combination 3</i></p>
    <img src='/images/Deep_Learning_Images/Airfoil_Noise/comb3.png' alt="comb3" class="center">
    <ul>
     <li>hid_dim = [32, 64, 32]</li>
@@ -86,7 +86,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
 
   </td>
   <td>
-   <i>Combination 4</i>
+   <p style="text-align:center"> <i>Combination 4</i></p>
    <img src='/images/Deep_Learning_Images/Airfoil_Noise/comb4.png' alt="comb4" class="center">
    <ul>
     <li>hid_dim = [64, 128, 256, 256, 128, 64]</li>
