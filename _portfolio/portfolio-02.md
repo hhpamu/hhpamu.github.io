@@ -108,9 +108,6 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
  </tr>
 </table>
 
-### Explanation
-A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128 seemed to give the lowest error on the test data. I believe that the complexity of the network and the larger batch size impacted the most in significantly lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high in the beginning. Overall, there appears to be slight overfitting as the final validation error is higher than the training error. I didnt get a chance to fix this due to time constraints.
-
 ### References
 Thomas F. Brooks, D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. NTRS Author Affiliations: PRC Kentron, Inc., Hampton, NASA Langley Research Center NTRS Report/Patent Number: L16528 NTRS Document ID: 19890016302 NTRS Research Center: Legacy CDMS (CDMS). July 1989. Url: https://ntrs.nasa.gov/citations/19890016302 (visited on 01/24/2023).
 
@@ -119,6 +116,9 @@ RobertoLopez.Airfoil Self-Noise Data Set. Mar. 2014. URL: https://archive.ics.uc
 # CIFAR-10 Image Classification Using a Convolutional Neural Network
 
 In this project, I implemented a Convolutional Neural Network (CNN) to perform image classification on the CIFAR-10 dataset, which consists of 60,000 32×32 color images across 10 object categories. The goal was to train a model that generalizes well to unseen data while avoiding overfitting, using PyTorch as the primary framework. 
+
+<img src='/images/Deep_Learning_Images/CIFAR10_CNN/cifar10dataset.png' alt="cifar10dataset" class="center">
+<p style="text-align:center"> <i>CIFAR-10 Dataset</i></p>
 
 ### Network Architecture
 The training pipeline included dataset normalization, data augmentation with random 45 degree rotation, random crop and random vertical flip, and network regularization using dropout. I defined a ResNet inspired CNN architecture consisting of multiple convolutional layers with ReLU activation and max-pooling, followed by fully connected layers for classification. Cross-entropy loss was used with the Adam optimizer.
