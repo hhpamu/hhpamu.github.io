@@ -17,7 +17,7 @@ I implemented a custom Dataset class to load and batch the data (split into trai
 
 The network architecture, hyperparameters (learning rate, weight decay, batch size), and training loop were tuned across multiple configurations to evaluate their effect on model performance. Training was monitored using loss curves, and the best configuration, Combination 4, achieved a test loss of 11.913, indicating strong model generalization. I analyzed the impact of model depth, batch size, and learning rate on convergence rate and final error, and presented the results with accompanying plots.
 
-<!--TABLE VIDEO PLACEMENT-->
+<!--TABLE PLACEMENT-->
 <table border="0">
  <tr>
   <td>
@@ -36,7 +36,7 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    Validation Loss: 0.7819
    <br><br>
    TOTAL EVALUATION LOSS: 16.13764
-   
+   <br><br>
    <p>Increasing the number of neurons improved the model's performance on the test dataset by reducing the test loss. However, model 1 didnt generalize well enough as evidenced by the difference in training and validation losses.</p>
 
   </td>
@@ -53,12 +53,12 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    </ul>
    
    Train Loss: 0.4739
-   
+   <br><br>
    Validation Loss: 0.5971
-   
+   <br><br>
    TOTAL EVALUATION LOSS: 14.82711
-
-   The validation and training are very close, indicating a good amount of generalization. The plots are still jittery, likely due to a high learning rate.
+   <br><br>
+   <p>The validation and training are very close, indicating a good amount of generalization. The plots are still jittery, likely due to a high learning rate.</p>
 
   </td>
  </tr>
@@ -77,12 +77,12 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    </ul>
    
    Train Loss: 0.2237
-   
+   <br><br>
    Validation Loss: 0.5934
-   
+   <br><br>
    TOTAL EVALUATION LOSS: 12.83629
-
-   The loss plots appear jittery, likely due to the high learning rate. However, adding an extra layer and running for more epochs appears to have improved the model's performance on the test data. The validation loss is higher than the training loss, indicating a minor degree of overfitting.
+   <br><br>
+   <p>The loss plots appear jittery, likely due to the high learning rate. However, adding an extra layer and running for more epochs appears to have improved the model's performance on the test data. The validation loss is higher than the training loss, indicating a minor degree of overfitting.</p>
 
   </td>
   <td>
@@ -97,12 +97,12 @@ The network architecture, hyperparameters (learning rate, weight decay, batch si
    </ul>
    
    Train Loss: 0.0233
-   
+   <br><br>
    Validation Loss: 0.1845
-   
+   <br><br>
    TOTAL EVALUATION LOSS: 11.91328
-
-   A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128, gave the lowest error on the test data. The complexity of the network and the larger batch size had the most impact in lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high initially.
+   <br><br>
+   <p>A wider and deeper neural network, along with a learning rate of 0.0005 and a batch size of 128, gave the lowest error on the test data. The complexity of the network and the larger batch size had the most impact in lowering the test error. The test loss curve's spikes indicate that the learning rate may be too high initially.</p>
 
   </td>
  </tr>
