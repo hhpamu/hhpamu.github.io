@@ -80,7 +80,7 @@ A wider and deeper neural network, along with a learning rate of 0.0005 and a ba
 ### References
 Thomas F. Brooks, D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. NTRS Author Affiliations: PRC Kentron, Inc., Hampton, NASA Langley Research Center NTRS Report/Patent Number: L16528 NTRS Document ID: 19890016302 NTRS Research Center: Legacy CDMS (CDMS). July 1989. Url: https://ntrs.nasa.gov/citations/19890016302 (visited on 01/24/2023).
 
-RobertoLopez.Airfoil Self-Noise Data Set.Mar.2014.url:https://archive.ics.uci.edu/ml/datasets/airfoil+self-noise.
+RobertoLopez.Airfoil Self-Noise Data Set. Mar. 2014. URL: https://archive.ics.uci.edu/ml/datasets/airfoil+self-noise.
 
 # CIFAR-10 Image Classification Using a Convolutional Neural Network
 
@@ -88,7 +88,7 @@ In this project, I implemented a Convolutional Neural Network (CNN) to perform i
 
 ### Network Architecture
 The training pipeline included dataset normalization, data augmentation with random 45 degree rotation, random crop and random vertical flip, and network regularization using dropout. I defined a ResNet inspired CNN architecture consisting of multiple convolutional layers with ReLU activation and max-pooling, followed by fully connected layers for classification. Cross-entropy loss was used with the Adam optimizer.
-
+<!--
 ```python
 ===================================================================================================================
 Layer (type:depth-idx)                   Input Shape               Kernel Shape              Output Shape
@@ -134,8 +134,9 @@ Forward/backward pass size (MB): 671.70
 Params size (MB): 35.61
 Estimated Total Size (MB): 708.88
 ===================================================================================================================
-
 ```
+-->
+
 ### Training
 
 During training, I monitored both training and validation loss and accuracy, and tuned the model to maximize test performance.
@@ -175,6 +176,7 @@ This project involved building and training an LSTM model to predict the transie
 
 I implemented a multi-layer LSTM using PyTorch’s nn.LSTMCell, enabling step-wise control over hidden states. The model was trained on a dataset consisting of velocity measurements at 17 spatial points over 20 time steps, where each input sequence began with physical flow parameters (diameter, pressure gradient, viscosity, density) followed by 19 steps of observed velocity. During testing, only the initial condition was provided to autoregressively predict the entire 20-step sequence.
 
+<!--
 ```python
 ==========================================================================================
 Layer (type:depth-idx)                   Output Shape              Param #
@@ -249,6 +251,7 @@ Params size (MB): 0.84
 Estimated Total Size (MB): 3.58
 ==========================================================================================
 ```
+-->
 
 ### Training
 Training was performed using MSE loss and the Adam optimizer, with tuned hyperparameters to minimize L1 and L2 errors. The model was evaluated by comparing predicted flow profiles to the true time evolution across the pipe radius. The model was initially trained using three LSMCell layers with a batch size of 128 and dropout set to 0.1; however, this configuration yielded poor predictions, with L1 and L2 losses in the ranges of 1e-5 and 1e-3, respectively. After resolving shape and datatype mismatches, I reduced the model to two LSMCell layers, adjusted the batch size to 64, and increased the dropout rate to 0.15, which slightly improved the results but still produced unsatisfactory predictions. The final breakthrough occurred after correcting a timestep loop error in the forward and test methods, which resolved the prediction issue and yielded acceptable L1 and L2 losses. The final training setup consisted of 20 epochs, a learning rate of 0.001, a dropout rate of 0.15, and a batch size of 64.
@@ -266,6 +269,7 @@ The final model achieved a total L1 error of 4580.517 and L2 error of 14.075, me
 
 ### References
 The course assignment guide.
+
 Nina Prakash for providing her code for generating Hagen-Poiseuille flow data.
 
 # Airfoil Shape Generation Using Variational Autoencoders and GANs
