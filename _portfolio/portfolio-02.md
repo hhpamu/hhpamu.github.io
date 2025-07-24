@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning Exercises"
+title: "Deep Learning Exercises - WIP"
 excerpt: "24-788 and 24-789 course exercises, Carnegie Mellon University <br/><img src='/images/ACSI_project/coverimage_500x250.jpg'>"
 collection: portfolio
 ---
@@ -82,15 +82,76 @@ Thomas F. Brooks, D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise a
 
 RobertoLopez.Airfoil Self-Noise Data Set.Mar.2014.url:https://archive.ics.uci.edu/ml/datasets/airfoil+self-noise.
 
-
-
-
 # CIFAR-10 Image Classification Using a Convolutional Neural Network
 
 In this project, I implemented a Convolutional Neural Network (CNN) to perform image classification on the CIFAR-10 dataset, which consists of 60,000 32×32 color images across 10 object categories. The goal was to train a model that generalizes well to unseen data while avoiding overfitting, using PyTorch as the primary framework. 
 
-<img src='/images/ACSI_project/Dual_CF_wTruss.png' alt="Dual_CF_wTruss" class="center">
-<p style="text-align:center"> <i>SolidWorks Assembly of the Dual-Drone System. Note the cross shape of the truss allowing for an unobstructed view for the Flowdecks on the underside</i></p>
+### Network Architecture
+The training pipeline included dataset normalization, data augmentation with random 45 degree rotation, random crop and random vertical flip, and network regularization using dropout. I defined a ResNet inspired CNN architecture consisting of multiple convolutional layers with ReLU activation and max-pooling, followed by fully connected layers for classification. Cross-entropy loss was used with the Adam optimizer.
+
+```
+===================================================================================================================
+Layer (type:depth-idx)                   Input Shape               Kernel Shape              Output Shape
+===================================================================================================================
+CNN_RES                                  [128, 3, 32, 32]          --                        [128, 10]
+├─Sequential: 1-1                        [128, 3, 32, 32]          --                        [128, 64, 32, 32]
+│    └─Conv2d: 2-1                       [128, 3, 32, 32]          [3, 3]                    [128, 64, 32, 32]
+│    └─BatchNorm2d: 2-2                  [128, 64, 32, 32]         --                        [128, 64, 32, 32]
+│    └─ReLU: 2-3                         [128, 64, 32, 32]         --                        [128, 64, 32, 32]
+├─Sequential: 1-2                        [128, 64, 32, 32]         --                        [128, 128, 16, 16]
+│    └─Conv2d: 2-4                       [128, 64, 32, 32]         [3, 3]                    [128, 128, 32, 32]
+│    └─BatchNorm2d: 2-5                  [128, 128, 32, 32]        --                        [128, 128, 32, 32]
+│    └─ReLU: 2-6                         [128, 128, 32, 32]        --                        [128, 128, 32, 32]
+│    └─MaxPool2d: 2-7                    [128, 128, 32, 32]        2                         [128, 128, 16, 16]
+├─Sequential: 1-3                        [128, 128, 16, 16]        --                        [128, 128, 16, 16]
+│    └─Conv2d: 2-8                       [128, 128, 16, 16]        [3, 3]                    [128, 128, 16, 16]
+│    └─BatchNorm2d: 2-9                  [128, 128, 16, 16]        --                        [128, 128, 16, 16]
+│    └─ReLU: 2-10                        [128, 128, 16, 16]        --                        [128, 128, 16, 16]
+│    └─Conv2d: 2-11                      [128, 128, 16, 16]        [3, 3]                    [128, 128, 16, 16]
+│    └─BatchNorm2d: 2-12                 [128, 128, 16, 16]        --                        [128, 128, 16, 16]
+│    └─ReLU: 2-13                        [128, 128, 16, 16]        --                        [128, 128, 16, 16]
+├─Sequential: 1-4                        [128, 128, 16, 16]        --                        [128, 256, 8, 8]
+│    └─Conv2d: 2-14                      [128, 128, 16, 16]        [3, 3]                    [128, 256, 16, 16]
+│    └─BatchNorm2d: 2-15                 [128, 256, 16, 16]        --                        [128, 256, 16, 16]
+│    └─ReLU: 2-16                        [128, 256, 16, 16]        --                        [128, 256, 16, 16]
+│    └─MaxPool2d: 2-17                   [128, 256, 16, 16]        2                         [128, 256, 8, 8]
+├─Sequential: 1-5                        [128, 256, 8, 8]          --                        [128, 10]
+│    └─Flatten: 2-18                     [128, 256, 8, 8]          --                        [128, 16384]
+│    └─Linear: 2-19                      [128, 16384]              --                        [128, 500]
+│    └─ReLU: 2-20                        [128, 500]                --                        [128, 500]
+│    └─Linear: 2-21                      [128, 500]                --                        [128, 84]
+│    └─ReLU: 2-22                        [128, 84]                 --                        [128, 84]
+│    └─Linear: 2-23                      [128, 84]                 --                        [128, 10]
+│    └─Dropout: 2-24                     [128, 10]                 --                        [128, 10]
+===================================================================================================================
+Total params: 8,902,826
+Trainable params: 8,902,826
+Non-trainable params: 0
+Total mult-adds (G): 30.31
+===================================================================================================================
+Input size (MB): 1.57
+Forward/backward pass size (MB): 671.70
+Params size (MB): 35.61
+Estimated Total Size (MB): 708.88
+===================================================================================================================
+
+```
+### Training
+
+During training, I monitored both training and validation loss and accuracy, and tuned the model to maximize test performance.
+
+<img src='/images/Deep_Learning/CIFAR10_CNN/final_loss_acc_plot.png' alt="final_loss_acc_plot" class="center">
+<p style="text-align:center"> <i>[final_loss_acc_plot]</i></p>
+
+The final model was trained for 50 epochs and achieved a test accuracy of 83.63%, demonstrating strong classification performance across multiple classes. The following are some key steps taken to improve:
+  * a
+  * b
+  * c
+
+### References
+
+CIFAR 10 Dataset: <a href="https://www.cs.toronto.edu/~kriz/cifar.html" target="_blank">www.cs.toronto.edu/~kriz/cifar.html</a>
+
 
 # LSTM Modeling of Transient Hagen–Poiseuille Flow
 
