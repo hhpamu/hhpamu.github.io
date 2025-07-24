@@ -338,7 +338,6 @@ The VAE architecture employed a 3-layer encoder (256–512–512 units) and a 2-
 
 <img src='/images/Deep_Learning_Images/Airfoil_Shape/VAE_Generated_Airfoils.png' alt="VAE_Generated_Airfoils" class="center">
 <p style="text-align:center"> <i>VAE Generated Airfoils</i></p>
-[  VAE_Generated_Airfoils ]
 
 ### GAN model
 The GAN was trained with a 4-layer generator (128–256–512–1024 units) and a 2-layer discriminator (512–256), utilizing LeakyReLU activations throughout, with a Sigmoid activation at the output of the discriminator and a Tanh activation in the generator. Batch normalization was applied after generator layers 1, 2, and 4 to stabilize the training process. The model was trained for 60 epochs using the Adam optimizer with a learning rate of 0.0005 for both the generator and discriminator.
@@ -387,10 +386,12 @@ Training utilized binary cross-entropy loss (nn.BCELoss()) for both networks, al
 
 Loss values were tracked during training and plotted over iterations to monitor convergence. Generator loss generally decreased while discriminator loss oscillated, reflecting the adversarial dynamic.
 
+
 <img src='/images/Deep_Learning_Images/Face/Face_GAN_Loss.png' alt="Face_GAN_Loss" class="center">
 <p style="text-align:center"> <i>Loss over training</i></p>
 
 The final model generated visually plausible faces with correct facial proportions, realistic shading, and skin tone variation. Generated faces displayed learned symmetries and structure but occasionally exhibited artifacts such as blurry features or asymmetries, especially in early epochs.
+
 
 <img src='/images/Deep_Learning_Images/Face/Face_GAN_fake.png' alt="Face_GAN_fake" class="center">
 <p style="text-align:center"> <i>GAN generated faces</i></p>
