@@ -11,7 +11,7 @@ The various deep learning works seen here are part of the Introduction to Deep L
 <img src='/images/Deep_Learning_Images/Airfoil_Noise/airfoil_figure.png' alt="airfoil_figure" class="center">
 <p style="text-align:center"> <i>Airfoil noise factors</i></p>
 
-This project focused on developing a neural network to predict airfoil self-noise based on five input features: frequency, angle of attack, chord length, free-stream velocity, and suction side displacement thickness. The target output was the scaled sound pressure level in decibels. The task used a regression-based formulation, and the model was trained using PyTorch.
+This work focused on developing a neural network to predict airfoil self-noise based on five input features: frequency, angle of attack, chord length, free-stream velocity, and suction side displacement thickness. The target output was the scaled sound pressure level in decibels. The task used a regression-based formulation, and the model was trained using PyTorch.
 
 I implemented a custom Dataset class to load and batch the data (split into training, validation, and test sets), and defined a Multi-Layer Perceptron with configurable depth and width, along with a ReLU activation function. For evaluating the performance of the networks, and MSE loss was used
 
@@ -115,7 +115,7 @@ RobertoLopez.Airfoil Self-Noise Data Set. Mar. 2014. URL: https://archive.ics.uc
 
 # CIFAR-10 Image Classification Using a Convolutional Neural Network
 
-In this project, I implemented a Convolutional Neural Network (CNN) to perform image classification on the CIFAR-10 dataset, which consists of 60,000 32×32 color images across 10 object categories. The goal was to train a model that generalizes well to unseen data while avoiding overfitting, using PyTorch as the primary framework. 
+In this exercise, I implemented a Convolutional Neural Network (CNN) to perform image classification on the CIFAR-10 dataset, which consists of 60,000 32×32 color images across 10 object categories. The goal was to train a model that generalizes well to unseen data while avoiding overfitting, using PyTorch as the primary framework. 
 
 <img src='/images/Deep_Learning_Images/CIFAR10_CNN/cifar10dataset.png' alt="cifar10dataset" class="center">
 <p style="text-align:center"> <i>CIFAR-10 Dataset</i></p>
@@ -179,10 +179,7 @@ During training, I monitored both training and validation loss and accuracy, and
 <img src='/images/Deep_Learning_Images/CIFAR10_CNN/final_loss_acc_plot.png' alt="final_loss_acc_plot" class="center">
 <p style="text-align:center"> <i>Loss and Accuracy over training</i></p>
 
-The final model was trained for 50 epochs and achieved a test accuracy of 83.63%, demonstrating strong classification performance across multiple classes. The following are some key steps taken to improve:
-  * a
-  * b
-  * c
+The final model was trained for 50 epochs and achieved a test accuracy of 83.63%, demonstrating strong classification performance across multiple classes. Several incremental improvements were made during the development process. Initially, the batch size was increased from 4 to 128, random rotation was introduced up to 45 degrees, and the base model was expanded with additional layers and ReLU activations. Switching to the Adam optimizer with a learning rate of 0.001 and training for 30 epochs yielded ~66% accuracy, which improved to ~72% after 50 epochs. Adding three more convolutional layers and an additional linear layer resulted in the model stalling at ~10% accuracy, indicating poor training behavior. This was addressed by removing the last three convolutional and max-pooling layers and introducing dropout with a 25% probability, which improved accuracy to ~79%. Further augmentation with random cropping and vertical flipping brought the performance to ~80%. Finally, a ResNet-based architecture was implemented, with one residual and two convolutional layers removed to reduce the number of trainable parameters from ~15 million to ~9 million, reducing underfitting.
 
 ### References
 
@@ -190,11 +187,9 @@ CIFAR 10 Dataset: <a href="https://www.cs.toronto.edu/~kriz/cifar.html" target="
 
 
 # Graph Neural Network for Molecular Solubility Prediction
-This project explored the use of Graph Neural Networks (GNNs) for predicting aqueous solubility from molecular structure, using PyTorch Geometric. Each molecule was represented as a graph with atoms as nodes and bonds as edges. Node and edge features were precomputed, and the task was framed as a regression problem to predict log solubility.
+This undertaking explored the use of Graph Neural Networks (GNNs) for predicting aqueous solubility from molecular structure, using PyTorch Geometric. Each molecule was represented as a graph with atoms as nodes and bonds as edges. Node and edge features were precomputed, and the task was framed as a regression problem to predict log solubility.
 
-I implemented a GCN-based model using the GCNConv layer from torch_geometric.nn, and trained it using mean squared error (MSE) loss. The dataset was preprocessed using the provided get_dataset() function, and the training loop was augmented with early stopping and model checkpointing to prevent overfitting.
-
-The model was configured with 8 graph convolutional layers, each using 128 channels, followed by a single linear layer that maps the 128-dimensional output to the final prediction. Batch normalization was applied after convolutional layers 1, 2, 3, 5, and 6, with the selection based on trial and error. The training objective used mean squared error loss (nn.MSELoss) appropriate for the regression task. Optimization was performed using Adam with a learning rate of 0.0001 and weight decay of 1e-5. The model was trained for 100 epochs, which provided the best balance between underfitting and overfitting. The model met performance expectations by achieving a sum of mean square errors between the model prediction and the label of 167.
+I implemented a GCN-based model using the GCNConv layer from torch_geometric.nn, and trained it using mean squared error (MSE) loss. The dataset was preprocessed, and the training loop was augmented with early stopping and model checkpointing to prevent overfitting. The model was configured with 8 graph convolutional layers, each using 128 channels, followed by a single linear layer that maps the 128-dimensional output to the final prediction. Batch normalization was applied after convolutional layers 1, 2, 3, 5, and 6, with the selection based on trial and error. The training objective used mean squared error loss (nn.MSELoss) appropriate for the regression task. Optimization was performed using Adam with a learning rate of 0.0001 and weight decay of 1e-5. The model was trained for 100 epochs, which provided the best balance between underfitting and overfitting. The model met performance expectations by achieving a sum of mean square errors between the model prediction and the label of 167.
 
 <!--TWO COLUMN IMAGE PLACEMENT-->
 <table border="0">
@@ -212,9 +207,7 @@ Kipf, Thomas N., and Max Welling. "Semi-supervised classification with graph con
 
 # LSTM Modeling of Transient Hagen–Poiseuille Flow
 
-This project involved building and training an LSTM model to predict the transient velocity profile of incompressible laminar flow through a pipe, governed by the simplified Navier–Stokes equations for Hagen–Poiseuille flow. The goal was to learn the evolution of the axial velocity field from initial flow conditions using a recurrent neural network trained on simulated time series data.
-
-I implemented a multi-layer LSTM using PyTorch’s nn.LSTMCell, enabling step-wise control over hidden states. The model was trained on a dataset consisting of velocity measurements at 17 spatial points over 20 time steps, where each input sequence began with physical flow parameters (diameter, pressure gradient, viscosity, density) followed by 19 steps of observed velocity. During testing, only the initial condition was provided to autoregressively predict the entire 20-step sequence.
+To learn the evolution of the axial velocity field from initial flow conditions, I trained an LSTM model to predict the transient velocity profile of incompressible laminar flow through a pipe, governed by the simplified Navier–Stokes equations for Hagen–Poiseuille flow. I implemented a multi-layer LSTM using PyTorch’s nn.LSTMCell, enabling step-wise control over hidden states. The model was trained on a dataset consisting of velocity measurements at 17 spatial points over 20 time steps, where each input sequence began with physical flow parameters (diameter, pressure gradient, viscosity, density) followed by 19 steps of observed velocity. During testing, only the initial condition was provided to autoregressively predict the entire 20-step sequence.
 
 <!--
 ```python
@@ -297,7 +290,8 @@ Estimated Total Size (MB): 3.58
 Training was performed using MSE loss and the Adam optimizer, with tuned hyperparameters to minimize L1 and L2 errors. The model was evaluated by comparing predicted flow profiles to the true time evolution across the pipe radius. The model was initially trained using three LSMCell layers with a batch size of 128 and dropout set to 0.1; however, this configuration yielded poor predictions, with L1 and L2 losses in the ranges of 1e-5 and 1e-3, respectively. After resolving shape and datatype mismatches, I reduced the model to two LSMCell layers, adjusted the batch size to 64, and increased the dropout rate to 0.15, which slightly improved the results but still produced unsatisfactory predictions. The final breakthrough occurred after correcting a timestep loop error in the forward and test methods, which resolved the prediction issue and yielded acceptable L1 and L2 losses. The final training setup consisted of 20 epochs, a learning rate of 0.001, a dropout rate of 0.15, and a batch size of 64.
 
 <img src='/images/Deep_Learning_Images/LSTM/LSTM_loss_plot.png' alt="LSTM_loss_plot" class="center">
-<p style="text-align:center"> <i>[LSTM_loss_plot]</i></p>
+<p style="text-align:center"> <i>Loss over training</i></p>
+
 
 <!--TWO COLUMN IMAGE PLACEMENT-->
 <table border="0">
@@ -309,16 +303,16 @@ Training was performed using MSE loss and the Adam optimizer, with tuned hyperpa
 
 <p style="text-align:center"> <i>Left: Prediction, Right: Truth. </i></p>
 
-The final model achieved a total L1 error of 4580.517 and L2 error of 14.075, meeting satisfactory performance. The project demonstrates how sequence learning methods like LSTM can effectively capture temporal dynamics in physical systems governed by PDEs, and serve as surrogates for numerical solvers.
+The final model achieved a total L1 error of 4580.517 and L2 error of 14.075, meeting satisfactory performance. This exercise demonstrates how sequence learning methods like LSTM can effectively capture temporal dynamics in physical systems governed by PDEs, and serve as surrogates for numerical solvers.
 
 ### References
 The course assignment guide.
 
 Nina Prakash for providing her code for generating Hagen-Poiseuille flow data.
 
-# Airfoil Shape Generation Using Variational Autoencoders and GANs
+# Airfoil Shape Generation Using Variational Autoencoders and Generative Adversarial Networks
 
-This project focused on generative modeling of airfoil geometries using Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). The input dataset consisted of 1,600 airfoil shapes from the UIUC Airfoil Database, preprocessed by interpolating to a shared x-coordinate grid and scaling y-coordinates to the range [−1, 1]. The generative models were trained to learn the underlying distribution of airfoil shapes using only the y-coordinates as input.
+In this assignment, I generatively modeled airfoil geometries using Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). The input dataset consisted of 1,600 airfoil shapes from the UIUC Airfoil Database, which were preprocessed by interpolating to a shared x-coordinate grid and scaling the y-coordinates to the range [−1, 1]. The generative models were trained to learn the underlying distribution of airfoil shapes using only the y-coordinates as input.
 
 ### VAE model
 The VAE architecture employed a 3-layer encoder (256–512–512 units) and a 2-layer decoder (512–512 units), each with ReLU activations and a final Tanh activation in the decoder. The model was trained for 30 epochs using an MSE loss term, weighted equally, with a small KL divergence regularization term (weight = 0.0001). Adam optimizer was used with a learning rate of 0.001. Tuning included expanding layer widths and deepening the encoder and decoder to improve expressiveness. The resulting generated airfoils were consistent and realistic, although the diversity of shapes was somewhat limited.
@@ -351,14 +345,12 @@ The GAN was trained with a 4-layer generator (128–256–512–1024 units) and 
 ### Comparison
 The VAE-generated shapes were smoother and more interpretable, indicating strong reconstruction accuracy and clear latent space structure. Meanwhile, the GAN produced more visually diverse but fuzzier outputs, suggesting better sampling diversity at the cost of precision. This highlights a fundamental tradeoff between clarity and exploration in generative design models.
 
-This project highlights the application of deep generative models in shape synthesis tasks and the trade-offs between likelihood-based and adversarial approaches in modeling continuous geometric data.
-
 ### References
 The course assignment guide.
 
 # Face Image Generation Using GAN on CelebA Dataset
 
-This project focused on applying Generative Adversarial Networks (GANs) to synthesize realistic face images using the CelebA dataset. The dataset consisted of 49,736 RGB face images, each resized to 128×128×3. The task was to synthesize new faces by learning a generative distribution using adversarial training. 
+Using Generative Adversarial Networks (GANs), I synthesized realistic face images by training my model on the CelebA dataset, which consists of 49,736 RGB face images. The images were each resized to 128×128×3 to be training input to the model.
 
 <img src='/images/Deep_Learning_Images/Face/Face_GAN_training.png' alt="Face_GAN_training" class="center">
 <p style="text-align:center"> <i>CelebA Dataset</i></p>
@@ -401,11 +393,51 @@ The course assignment guide.
 
 # Image Generation Using Denoising Diffusion Probabilistic Models
 
-In this project, I implemented a Denoising Diffusion Probabilistic Model (DDPM) to generate synthetic images of the digit "1" from the MNIST dataset. DDPMs operate by progressively adding Gaussian noise to images during a forward diffusion process and then learning to reverse this process to generate realistic data. A UNet-based architecture was trained to model this reverse trajectory by predicting the noise component at each step.
+I implemented a Denoising Diffusion Probabilistic Model (DDPM) to generate synthetic images of the digits "1" and "5" from the MNIST dataset. DDPMs operate by progressively adding Gaussian noise to images during a forward diffusion process and then learning to reverse this process to generate realistic data. A UNet-based architecture was trained to model this reverse trajectory by predicting the noise component at each step.
+
+The UNet consisted of four downsampling blocks, followed by symmetrical upsampling blocks, with concatenated skip connections at each level. Each block used Conv2D layers, GroupNorm, SiLU activations, and temporal embedding additions. Timestep embeddings were generated using sinusoidal encodings followed by MLP projection.
+
+The model was trained for 100 epochs using a batch size of 128 and an initial learning rate of 1e-3. Training was performed on GPU with PyTorch, and the loss consistently decreased as the model learned to better denoise samples across all diffusion steps. After training, the model was used to generate 36 diverse samples of the digits "1" and "5" by progressively denoising Gaussian noise. The results showed well-formed structures that captured the statistical properties of the training data. To qualitatively understand the generation process, denoising trajectories were plotted for individual samples. These showed smooth transitions from noise to structured digits, highlighting the learned stochastic refinement behavior across steps.
+
+<!--TWO COLUMN IMAGE PLACEMENT-->
+<table border="0">
+ <tr>
+  <td><img src='/images/Deep_Learning_Images/Diffusion/viz_diffusion_1.png' alt="viz_diffusion_1" class="center"></td>
+  <td><img src='/images/Deep_Learning_Images/Diffusion/viz_diffusion_5.png' alt="viz_diffusion_5" class="center"></td>
+ <tr>
+  <td><img src='/images/Deep_Learning_Images/Diffusion/diffusion_1.png' alt="diffusion_1" class="center"></td>
+  <td><img src='/images/Deep_Learning_Images/Diffusion/diffusion_5.png' alt="diffusion_5" class="center"></td>
+ </tr>
+ </tr>
+</table>
+
+<p style="text-align:center"> <i>Visualization of denoising and the final diffusion denerated samples</i></p>
+
+<!-- TWO ROW IMAGE PLACEMENT
+<table border="0">
+ <tr><img src='/images/Deep_Learning_Images/Diffusion/viz_diffusion_1.png' alt="viz_diffusion_1" class="center"></tr>
+ <tr><img src='/images/Deep_Learning_Images/Diffusion/viz_diffusion_5.png' alt="viz_diffusion_5" class="center"> </tr>
+</table>
+
+<p style="text-align:center"> <i>Images over denoising</i></p>
+-->
+
+**References**
+Ho, Jonathan, Ajay Jain, and Pieter Abbeel. "Denoising diffusion probabilistic models." Advances in neural information processing systems 33 (2020): 6840-6851.
+
+<!--
+# Modeling PDE Dynamics with Transformer Architectures
+
+For this exercise, a Transformer-based architecture was used for modeling the evolution of 1D Burgers’ equation, a fundamental PDE in fluid dynamics that captures nonlinear advection and shock formation. The goal was to predict future time-evolution of the field u(x,t) using a sequence-to-sequence model structured around causal attention.
 
 
 **References**
+Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafullahariwal, Arvind Nee lakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language models are few-shot learners (2020). URL https://arxiv.org/abs/2005.14165.
 
-# Modeling PDE Dynamics with Transformer Architectures
+John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Jonas Adler, Trevor Back, Stig Petersen, David Reiman, Ellen Clancy, Michal Zielinski, Martin Steinegger, Michalina Pacholska, Tamas Berghammer, Sebastian Bodenstein, David Silver, Oriol Vinyals, Andrew W. Senior, Koray Kavukcuoglu, Pushmeet Kohli, and Demis Hassabis. Highly accurate protein structure prediction with alphafold. Nature, 596(7873): 583–589, August 2021. ISSN 1476-4687. doi: 10.1038/s41586-021-03819-2. URL https://doi.org/10.1038/s41586-021-03819-2.
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. Attention is all you need, 2017. URL https://arxiv.org/abs/1706.03762.
 
 # Self-Supervised Visual Representation Learning with SimCLR on CIFAR-10
+
+-->
