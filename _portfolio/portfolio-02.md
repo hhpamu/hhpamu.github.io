@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning Exercises"
-excerpt: "24-788 and 24-789 course exercises, Carnegie Mellon University <br/><img src='/images/ACSI_project/coverimage_500x250.jpg'>"
+excerpt: "24-788 and 24-789 course exercises, Carnegie Mellon University <br/>"
 collection: portfolio
 ---
 
