@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="https://drive.google.com/file/d/17e00XBlUxR5ceXHeUGkr0vo9_yl9Mkpd/view?usp=sharing" target="_blank"><b>PDF resume</b></a> Updated Jun 2025
+<a href="https://drive.google.com/file/d/1p7T59DqUnZAxseCLbUMQIuiFu2Hohdxq/view?usp=sharing" target="_blank"><b>PDF resume</b></a> Updated Jun 2025
 
 <a href="https://drive.google.com/file/d/1otD5EsdmpTzlVVpJzuDZ5GAiTpYotQCs/view?usp=sharing" target="_blank"><b>PDF CV</b></a> Updated Jun 2025
 
